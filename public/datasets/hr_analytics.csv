@@ -1,0 +1,601 @@
+employee_id,name,department,role,tenure_years,salary,performance_score,engagement_score,is_remote,manager_id,hire_date
+E0001,Employee_1,Product,Analyst,2.7,181465,4.16,47.3,True,E0018,2015-02-01
+E0002,Employee_2,Marketing,Lead,2.4,95872,3.67,57.0,False,E0061,2017-07-28
+E0003,Employee_3,Marketing,Lead,3.1,208858,3.77,57.8,True,E0035,2018-08-31
+E0004,Employee_4,Engineering,Specialist,11.3,120248,3.36,88.2,True,E0048,2016-01-13
+E0005,Employee_5,Sales,Specialist,1.9,114559,3.04,41.8,False,E0025,2024-12-24
+E0006,Employee_6,Product,Manager,2.6,218592,3.59,47.9,True,E0056,2018-07-29
+E0007,Employee_7,Sales,Specialist,10.6,224300,3.08,69.4,True,E0077,2018-03-30
+E0008,Employee_8,Product,Lead,3.8,83456,4.78,41.0,True,E0004,2023-07-07
+E0009,Employee_9,Sales,Lead,4.5,236723,4.83,54.6,True,E0079,2018-05-14
+E0010,Employee_10,Marketing,Lead,11.5,75062,4.79,55.8,False,E0072,2018-09-25
+E0011,Employee_11,Product,Director,11.0,214838,2.39,42.2,True,E0083,2019-08-07
+E0012,Employee_12,Design,Lead,3.5,151063,2.67,60.7,True,E0087,2020-09-19
+E0013,Employee_13,Product,Lead,8.9,80253,4.0,45.8,False,E0033,2017-07-20
+E0014,Employee_14,Customer Success,Lead,8.7,133607,4.44,73.2,False,E0064,2017-09-08
+E0015,Employee_15,HR,Lead,8.7,232943,4.3,72.7,False,E0024,2023-10-18
+E0016,Employee_16,Engineering,Analyst,9.1,162702,3.7,42.9,False,E0046,2021-06-16
+E0017,Employee_17,Design,Lead,12.1,162499,2.04,44.0,True,E0050,2016-09-19
+E0018,Employee_18,Customer Success,Analyst,3.8,168580,4.27,62.3,True,E0011,2018-09-20
+E0019,Employee_19,HR,Manager,6.8,74440,4.78,65.1,True,E0039,2019-06-23
+E0020,Employee_20,Design,Engineer,2.3,107659,3.91,70.7,True,E0062,2021-08-04
+E0021,Employee_21,Customer Success,Lead,9.3,217810,3.84,63.9,False,E0039,2023-02-08
+E0022,Employee_22,Product,Manager,5.0,52398,3.59,80.5,True,E0096,2020-02-27
+E0023,Employee_23,Operations,Manager,3.3,184292,2.01,41.9,True,E0059,2016-07-30
+E0024,Employee_24,Marketing,Director,1.8,136768,3.03,96.5,False,E0077,2022-12-15
+E0025,Employee_25,HR,Lead,5.2,170202,2.85,97.4,True,E0050,2016-03-18
+E0026,Employee_26,Product,Lead,12.2,53918,2.49,49.9,False,E0008,2016-12-14
+E0027,Employee_27,Finance,Manager,9.9,212682,4.38,80.5,False,E0046,2017-09-06
+E0028,Employee_28,Finance,Engineer,5.0,190986,4.76,48.4,False,E0029,2017-01-12
+E0029,Employee_29,Operations,Engineer,13.7,86653,3.82,63.5,True,E0057,2015-07-08
+E0030,Employee_30,Sales,Analyst,4.6,91149,3.8,89.8,True,E0039,2016-10-08
+E0031,Employee_31,Customer Success,Analyst,8.2,96355,4.72,61.6,True,E0076,2015-12-23
+E0032,Employee_32,Customer Success,Analyst,9.1,174476,4.58,90.1,False,E0029,2016-12-22
+E0033,Employee_33,HR,Engineer,14.6,81748,4.52,75.2,True,E0039,2016-05-31
+E0034,Employee_34,HR,Engineer,2.9,61818,3.25,80.3,True,E0014,2020-12-17
+E0035,Employee_35,Finance,Specialist,3.8,147955,3.86,69.4,False,E0011,2021-06-19
+E0036,Employee_36,Engineering,Engineer,1.1,55682,2.55,74.9,False,E0056,2021-10-08
+E0037,Employee_37,Customer Success,Manager,2.9,139263,3.13,83.1,False,E0090,2016-02-12
+E0038,Employee_38,Sales,Lead,11.2,142772,4.91,58.5,False,E0075,2020-07-09
+E0039,Employee_39,Marketing,Manager,0.2,140211,4.18,98.6,True,E0096,2021-12-21
+E0040,Employee_40,Sales,Analyst,9.8,172872,3.4,86.9,True,E0037,2017-08-17
+E0041,Employee_41,Customer Success,Director,6.7,125481,4.51,66.6,True,E0079,2018-09-19
+E0042,Employee_42,HR,Manager,10.2,233317,4.74,95.2,False,E0064,2018-04-26
+E0043,Employee_43,Customer Success,Specialist,6.5,65312,3.03,79.5,False,E0009,2019-10-19
+E0044,Employee_44,Engineering,Lead,2.6,72686,4.46,78.9,False,E0071,2016-05-27
+E0045,Employee_45,Customer Success,Specialist,1.3,239100,3.87,49.4,True,E0009,2015-08-14
+E0046,Employee_46,Sales,Analyst,7.3,193417,4.04,66.5,False,E0081,2022-07-28
+E0047,Employee_47,Product,Specialist,6.5,137896,2.74,49.1,False,E0016,2024-04-05
+E0048,Employee_48,HR,Lead,2.5,86191,3.14,78.1,False,E0083,2021-01-17
+E0049,Employee_49,HR,Analyst,3.5,180542,2.25,57.2,True,E0078,2020-09-30
+E0050,Employee_50,Finance,Engineer,0.8,245679,2.73,89.8,True,E0073,2018-06-30
+E0051,Employee_51,Design,Lead,13.6,88929,4.62,82.2,True,E0027,2023-06-09
+E0052,Employee_52,Operations,Analyst,5.3,222675,3.88,91.1,False,E0079,2016-08-09
+E0053,Employee_53,Marketing,Analyst,11.4,190344,4.14,46.2,True,E0088,2017-05-04
+E0054,Employee_54,Customer Success,Director,8.6,139345,4.69,95.2,True,E0006,2020-07-28
+E0055,Employee_55,Sales,Director,10.1,57951,4.44,88.2,True,E0090,2016-01-22
+E0056,Employee_56,Customer Success,Director,2.9,166684,4.6,92.6,False,E0009,2019-10-19
+E0057,Employee_57,Marketing,Analyst,2.9,123308,2.95,60.7,True,E0063,2024-01-13
+E0058,Employee_58,HR,Specialist,6.0,246967,3.16,68.2,False,E0034,2024-05-10
+E0059,Employee_59,Product,Lead,4.5,161636,2.48,56.7,False,E0091,2020-12-06
+E0060,Employee_60,Sales,Engineer,4.7,213964,2.41,40.3,False,E0075,2019-02-14
+E0061,Employee_61,Legal,Analyst,5.0,189940,4.79,91.5,True,E0087,2016-06-14
+E0062,Employee_62,Customer Success,Manager,11.3,159547,4.13,50.8,True,E0095,2015-08-11
+E0063,Employee_63,Engineering,Lead,6.7,106494,2.77,92.6,True,E0010,2018-08-01
+E0064,Employee_64,Legal,Engineer,4.7,222161,3.11,40.3,True,E0026,2016-06-20
+E0065,Employee_65,Product,Analyst,8.3,230767,4.8,82.0,True,E0037,2018-04-13
+E0066,Employee_66,Product,Specialist,8.6,85898,3.12,91.8,False,E0090,2018-11-13
+E0067,Employee_67,Engineering,Analyst,0.6,110339,3.95,71.8,True,E0038,2022-05-08
+E0068,Employee_68,Design,Specialist,12.6,87753,4.32,51.6,True,E0089,2020-01-29
+E0069,Employee_69,Legal,Specialist,10.6,133009,2.19,95.4,False,E0052,2015-08-18
+E0070,Employee_70,Product,Engineer,6.1,156691,3.89,80.3,False,E0026,2023-08-04
+E0071,Employee_71,Sales,Engineer,14.8,89727,2.08,96.9,True,E0093,2015-01-18
+E0072,Employee_72,Design,Director,7.7,120365,2.38,89.0,True,E0027,2022-07-31
+E0073,Employee_73,Finance,Analyst,12.8,227129,3.73,41.4,True,E0089,2023-06-11
+E0074,Employee_74,Legal,Analyst,7.6,244003,3.91,81.8,False,E0002,2021-01-21
+E0075,Employee_75,HR,Specialist,10.2,209013,4.75,93.4,True,E0004,2024-07-21
+E0076,Employee_76,HR,Analyst,4.3,237483,4.5,46.8,True,E0019,2021-04-22
+E0077,Employee_77,Legal,Director,11.5,74531,4.72,95.8,False,E0007,2017-12-07
+E0078,Employee_78,Engineering,Engineer,1.8,136979,2.88,46.6,False,E0068,2024-04-01
+E0079,Employee_79,Engineering,Lead,13.2,106816,4.85,84.0,True,E0037,2023-01-09
+E0080,Employee_80,Sales,Engineer,4.4,121287,2.73,60.9,False,E0066,2017-11-11
+E0081,Employee_81,Sales,Specialist,3.4,136552,2.57,78.1,True,E0036,2018-10-24
+E0082,Employee_82,Finance,Analyst,4.8,133812,3.06,43.0,True,E0080,2020-10-10
+E0083,Employee_83,Engineering,Engineer,13.8,185350,4.79,62.9,False,E0015,2022-03-03
+E0084,Employee_84,Product,Lead,4.1,73910,4.89,76.5,True,E0060,2020-06-17
+E0085,Employee_85,Sales,Analyst,13.5,188180,4.08,78.8,True,E0062,2023-11-12
+E0086,Employee_86,Sales,Analyst,1.6,145895,3.55,63.4,False,E0015,2022-11-14
+E0087,Employee_87,Legal,Lead,7.2,151025,3.32,74.7,True,E0085,2015-12-15
+E0088,Employee_88,Marketing,Analyst,1.2,60927,4.16,91.9,False,E0069,2017-03-26
+E0089,Employee_89,HR,Manager,4.0,218722,3.62,75.3,False,E0042,2017-04-29
+E0090,Employee_90,Marketing,Lead,5.7,145615,4.86,99.2,True,E0037,2019-12-07
+E0091,Employee_91,Customer Success,Analyst,10.0,74710,3.4,86.6,False,E0043,2016-10-14
+E0092,Employee_92,Engineering,Engineer,10.3,191407,4.44,95.7,False,E0071,2021-04-10
+E0093,Employee_93,Legal,Manager,0.3,103056,2.02,87.3,False,E0027,2020-06-09
+E0094,Employee_94,Product,Manager,7.3,150728,3.29,73.6,True,E0033,2016-10-07
+E0095,Employee_95,Sales,Specialist,5.7,243633,4.13,49.9,True,E0067,2018-07-21
+E0096,Employee_96,Operations,Analyst,1.8,112535,2.01,72.7,True,E0001,2019-02-27
+E0097,Employee_97,Legal,Analyst,2.1,239283,4.53,78.3,True,E0072,2021-01-01
+E0098,Employee_98,Marketing,Analyst,11.9,172982,3.37,84.8,True,E0016,2024-09-13
+E0099,Employee_99,Design,Director,2.3,83625,4.08,68.8,False,E0026,2024-11-08
+E0100,Employee_100,Legal,Engineer,0.3,71743,2.44,42.9,True,E0092,2015-01-05
+E0101,Employee_101,Operations,Manager,3.1,226982,2.87,53.0,True,E0045,2024-08-13
+E0102,Employee_102,Product,Specialist,10.0,173116,2.28,77.1,False,E0016,2023-04-15
+E0103,Employee_103,Legal,Lead,9.5,78399,3.13,82.6,False,E0045,2022-08-08
+E0104,Employee_104,Customer Success,Analyst,11.6,156619,2.89,76.4,False,E0068,2023-08-28
+E0105,Employee_105,Finance,Manager,4.5,119734,2.05,76.9,False,E0020,2024-08-01
+E0106,Employee_106,Operations,Manager,14.8,149578,4.05,61.9,False,E0080,2016-10-23
+E0107,Employee_107,Marketing,Manager,12.6,201900,2.23,55.5,True,E0059,2017-03-31
+E0108,Employee_108,HR,Specialist,4.4,226098,2.73,43.0,True,E0043,2015-03-29
+E0109,Employee_109,Legal,Engineer,1.4,136180,2.11,82.1,True,E0009,2020-07-11
+E0110,Employee_110,Marketing,Analyst,0.3,182099,2.1,64.1,True,E0086,2019-06-14
+E0111,Employee_111,Product,Director,9.0,195832,4.76,52.2,False,E0037,2017-12-07
+E0112,Employee_112,Design,Specialist,3.3,178973,4.68,76.0,True,E0037,2020-09-10
+E0113,Employee_113,Customer Success,Analyst,8.6,116099,3.15,98.2,False,E0082,2021-05-25
+E0114,Employee_114,Operations,Specialist,12.5,90833,2.07,52.5,False,E0089,2019-05-06
+E0115,Employee_115,Customer Success,Analyst,5.6,185907,2.43,63.6,False,E0034,2016-07-22
+E0116,Employee_116,Legal,Manager,14.8,180563,4.01,57.4,True,E0005,2024-08-16
+E0117,Employee_117,Marketing,Engineer,8.3,224082,2.15,58.3,False,E0003,2022-09-23
+E0118,Employee_118,Sales,Lead,0.6,138583,2.84,89.4,False,E0015,2018-08-02
+E0119,Employee_119,Finance,Specialist,1.0,219073,4.09,51.9,True,E0041,2019-06-30
+E0120,Employee_120,Finance,Analyst,9.1,249918,4.5,52.0,True,E0012,2019-09-20
+E0121,Employee_121,Engineering,Specialist,0.8,63740,3.58,75.7,True,E0009,2015-08-27
+E0122,Employee_122,Product,Lead,1.9,50931,4.43,58.6,True,E0023,2021-03-15
+E0123,Employee_123,Finance,Director,10.5,123054,2.19,72.6,True,E0080,2020-11-27
+E0124,Employee_124,Engineering,Lead,11.1,62941,4.77,82.4,False,E0054,2022-08-29
+E0125,Employee_125,Sales,Manager,11.6,153260,2.51,95.0,True,E0066,2019-10-06
+E0126,Employee_126,Sales,Manager,14.8,226784,3.91,71.2,False,E0098,2023-11-06
+E0127,Employee_127,Operations,Analyst,13.4,117222,4.31,90.8,False,E0092,2021-06-01
+E0128,Employee_128,Sales,Engineer,0.7,141449,4.04,96.8,True,E0002,2017-06-21
+E0129,Employee_129,Legal,Analyst,7.6,103163,3.81,77.1,False,E0018,2024-08-31
+E0130,Employee_130,Design,Lead,14.8,245820,2.93,80.0,True,E0061,2016-01-23
+E0131,Employee_131,HR,Specialist,0.6,240964,2.31,88.7,False,E0062,2019-07-30
+E0132,Employee_132,Sales,Lead,7.5,154366,4.61,47.5,True,E0053,2022-09-27
+E0133,Employee_133,Customer Success,Lead,8.0,224273,4.0,41.5,False,E0100,2017-08-25
+E0134,Employee_134,Marketing,Analyst,13.9,95061,3.78,51.0,False,E0056,2023-10-10
+E0135,Employee_135,Design,Specialist,7.8,199389,4.1,51.7,False,E0011,2019-12-24
+E0136,Employee_136,HR,Manager,3.0,217988,3.81,93.5,True,E0060,2019-06-07
+E0137,Employee_137,Legal,Lead,3.8,133359,3.7,46.4,False,E0044,2018-04-08
+E0138,Employee_138,Product,Analyst,7.1,163727,2.97,76.2,False,E0049,2021-12-24
+E0139,Employee_139,Engineering,Lead,12.6,196025,3.11,84.5,True,E0041,2018-04-28
+E0140,Employee_140,Sales,Specialist,14.1,126259,2.37,66.4,False,E0043,2015-05-01
+E0141,Employee_141,Design,Lead,3.0,68342,4.86,48.3,False,E0051,2020-05-31
+E0142,Employee_142,Sales,Lead,8.1,71044,3.94,90.5,False,E0068,2018-12-08
+E0143,Employee_143,Engineering,Engineer,13.1,144649,4.32,40.3,True,E0034,2019-10-22
+E0144,Employee_144,Legal,Specialist,9.7,187062,4.84,73.7,False,E0045,2018-01-09
+E0145,Employee_145,Product,Engineer,9.5,218443,2.05,48.5,True,E0003,2022-03-04
+E0146,Employee_146,Sales,Specialist,13.2,139101,3.9,43.8,False,E0081,2016-05-20
+E0147,Employee_147,Product,Director,2.7,247718,4.91,64.1,False,E0020,2015-05-28
+E0148,Employee_148,Marketing,Manager,12.8,156974,3.81,89.3,True,E0050,2017-01-12
+E0149,Employee_149,Engineering,Engineer,11.8,180672,3.92,41.2,True,E0034,2016-11-19
+E0150,Employee_150,Marketing,Analyst,9.8,161011,2.42,82.1,False,E0047,2023-10-23
+E0151,Employee_151,Product,Specialist,9.6,56522,4.09,59.6,True,E0083,2017-09-06
+E0152,Employee_152,Operations,Director,6.0,223891,4.88,62.0,False,E0087,2023-07-21
+E0153,Employee_153,Product,Director,0.9,149727,3.63,69.6,True,E0047,2023-09-18
+E0154,Employee_154,Operations,Director,14.1,107375,2.76,83.5,False,E0049,2022-03-30
+E0155,Employee_155,Customer Success,Lead,14.6,223712,4.47,61.2,True,E0086,2022-05-08
+E0156,Employee_156,Operations,Lead,3.1,127771,3.68,91.4,False,E0084,2023-05-20
+E0157,Employee_157,Customer Success,Specialist,2.6,159180,4.5,53.0,False,E0039,2021-02-18
+E0158,Employee_158,HR,Manager,2.5,223800,4.43,68.4,False,E0001,2020-10-21
+E0159,Employee_159,Legal,Director,3.8,220510,3.23,88.3,True,E0085,2020-09-11
+E0160,Employee_160,Operations,Director,3.8,241050,3.29,75.8,False,E0069,2024-04-19
+E0161,Employee_161,HR,Engineer,11.5,130111,2.96,43.6,True,E0077,2015-05-10
+E0162,Employee_162,Design,Director,6.1,93302,4.2,40.5,False,E0026,2016-12-17
+E0163,Employee_163,Marketing,Lead,11.4,198673,2.14,68.0,True,E0095,2018-02-22
+E0164,Employee_164,Marketing,Lead,4.9,216444,4.37,60.7,True,E0031,2020-06-30
+E0165,Employee_165,Engineering,Engineer,6.4,137839,3.68,61.1,False,E0005,2021-04-21
+E0166,Employee_166,Marketing,Specialist,10.5,51275,2.9,60.6,True,E0072,2022-08-03
+E0167,Employee_167,Operations,Manager,5.3,66968,2.42,67.8,False,E0099,2016-01-21
+E0168,Employee_168,Finance,Manager,11.3,212644,4.58,85.5,True,E0011,2022-09-01
+E0169,Employee_169,Sales,Engineer,2.3,222181,3.06,41.8,True,E0052,2023-12-11
+E0170,Employee_170,Marketing,Analyst,12.3,89056,3.65,90.4,False,E0024,2019-01-06
+E0171,Employee_171,HR,Engineer,10.4,187251,3.09,53.4,True,E0071,2024-01-15
+E0172,Employee_172,HR,Director,4.5,71036,2.78,85.4,True,E0078,2023-01-07
+E0173,Employee_173,Sales,Lead,3.6,74580,2.24,79.9,False,E0045,2024-03-28
+E0174,Employee_174,HR,Director,11.4,107650,4.07,81.9,False,E0018,2024-04-17
+E0175,Employee_175,Marketing,Lead,12.7,158981,3.37,54.8,False,E0050,2020-04-25
+E0176,Employee_176,Marketing,Engineer,10.1,174682,3.12,65.4,True,E0098,2016-01-27
+E0177,Employee_177,Operations,Engineer,2.8,161231,2.09,55.5,True,E0066,2019-10-09
+E0178,Employee_178,Product,Analyst,2.6,204443,3.86,43.6,True,E0011,2023-10-15
+E0179,Employee_179,Customer Success,Manager,0.5,111570,4.77,75.9,True,E0056,2021-10-07
+E0180,Employee_180,Product,Engineer,4.8,58516,4.14,83.3,True,E0017,2023-05-09
+E0181,Employee_181,Customer Success,Analyst,3.6,76203,4.84,97.1,True,E0036,2022-08-05
+E0182,Employee_182,Finance,Lead,13.8,189091,4.87,58.5,False,E0012,2023-10-07
+E0183,Employee_183,Operations,Specialist,2.5,88076,3.11,89.0,False,E0039,2022-05-17
+E0184,Employee_184,Engineering,Specialist,2.3,96059,4.36,54.3,True,E0033,2019-02-09
+E0185,Employee_185,Product,Director,11.6,165753,3.14,51.1,True,E0015,2016-06-26
+E0186,Employee_186,HR,Director,8.9,246211,2.86,55.5,True,E0067,2023-01-21
+E0187,Employee_187,Finance,Specialist,4.6,164262,4.65,62.4,True,E0005,2024-07-17
+E0188,Employee_188,Marketing,Specialist,14.7,176827,3.45,80.7,True,E0042,2022-09-09
+E0189,Employee_189,Customer Success,Manager,10.3,80065,4.85,96.2,True,E0050,2015-03-06
+E0190,Employee_190,HR,Engineer,13.7,106001,4.57,70.6,False,E0019,2023-10-10
+E0191,Employee_191,Legal,Engineer,11.2,241667,3.51,53.7,True,E0021,2022-09-08
+E0192,Employee_192,Legal,Lead,3.8,198688,4.7,87.2,False,E0028,2016-02-06
+E0193,Employee_193,Product,Analyst,11.7,79860,4.32,61.5,False,E0063,2022-08-14
+E0194,Employee_194,Product,Specialist,4.5,205938,4.22,90.4,True,E0048,2015-01-05
+E0195,Employee_195,Finance,Engineer,4.0,133308,2.15,88.5,True,E0001,2024-09-06
+E0196,Employee_196,Customer Success,Specialist,12.1,113972,3.68,73.3,True,E0028,2016-06-20
+E0197,Employee_197,Operations,Specialist,5.3,64493,2.51,59.0,False,E0058,2023-05-09
+E0198,Employee_198,Customer Success,Engineer,3.7,62458,2.82,76.3,True,E0035,2023-07-16
+E0199,Employee_199,Product,Specialist,5.4,213953,2.21,82.7,True,E0031,2019-07-30
+E0200,Employee_200,Customer Success,Lead,7.7,61705,2.23,54.6,True,E0058,2023-11-05
+E0201,Employee_201,Sales,Engineer,13.1,132201,2.3,54.7,False,E0008,2016-12-07
+E0202,Employee_202,Design,Director,2.6,50765,2.3,72.1,True,E0047,2016-02-16
+E0203,Employee_203,Finance,Manager,0.7,194224,4.22,81.1,True,E0097,2023-12-05
+E0204,Employee_204,Customer Success,Lead,2.0,217031,3.23,64.9,True,E0031,2022-07-15
+E0205,Employee_205,Legal,Specialist,10.1,72532,3.95,82.1,True,E0095,2021-01-10
+E0206,Employee_206,Legal,Engineer,7.1,183767,3.78,58.4,False,E0055,2019-04-08
+E0207,Employee_207,Marketing,Engineer,0.8,142691,2.39,55.4,True,E0100,2020-05-28
+E0208,Employee_208,Product,Engineer,7.0,163692,2.72,73.6,True,E0084,2015-07-26
+E0209,Employee_209,Design,Lead,4.9,97265,2.65,40.4,False,E0011,2022-07-12
+E0210,Employee_210,Sales,Lead,11.4,213110,2.79,78.6,False,E0034,2023-07-30
+E0211,Employee_211,Customer Success,Lead,7.2,211699,3.19,60.3,True,E0077,2019-01-28
+E0212,Employee_212,Product,Analyst,7.6,111951,3.32,84.1,True,E0089,2017-02-01
+E0213,Employee_213,Design,Lead,6.3,87058,4.54,54.4,False,E0052,2023-06-21
+E0214,Employee_214,Marketing,Specialist,6.1,150055,4.77,66.4,True,E0004,2016-03-12
+E0215,Employee_215,HR,Analyst,3.3,75806,2.59,90.8,False,E0096,2019-03-05
+E0216,Employee_216,Engineering,Manager,11.0,106994,4.06,95.7,False,E0086,2018-03-19
+E0217,Employee_217,Sales,Director,4.6,152493,4.66,50.6,False,E0027,2019-04-09
+E0218,Employee_218,Finance,Engineer,4.6,228251,2.33,88.3,False,E0100,2023-02-27
+E0219,Employee_219,Operations,Manager,9.5,76808,3.12,57.7,True,E0015,2016-02-01
+E0220,Employee_220,Customer Success,Lead,11.1,104318,4.66,64.9,False,E0004,2021-09-27
+E0221,Employee_221,Operations,Analyst,4.8,191203,4.93,63.2,False,E0003,2024-06-09
+E0222,Employee_222,Customer Success,Lead,8.5,110640,2.01,56.7,True,E0063,2017-06-05
+E0223,Employee_223,Legal,Specialist,3.6,241086,2.68,90.6,False,E0074,2022-08-29
+E0224,Employee_224,Marketing,Specialist,14.8,205676,2.34,78.6,False,E0008,2017-01-11
+E0225,Employee_225,HR,Lead,3.5,66885,2.13,55.9,False,E0096,2019-04-20
+E0226,Employee_226,Marketing,Lead,1.6,192400,3.35,47.7,True,E0036,2022-09-09
+E0227,Employee_227,Sales,Lead,3.1,72938,3.61,66.8,False,E0084,2020-05-19
+E0228,Employee_228,Product,Director,10.2,187840,3.84,87.4,False,E0074,2015-08-07
+E0229,Employee_229,Operations,Lead,9.3,213651,3.8,58.9,True,E0014,2020-05-08
+E0230,Employee_230,Sales,Engineer,4.3,157274,4.37,99.3,False,E0067,2020-07-01
+E0231,Employee_231,Sales,Lead,9.4,223777,2.31,96.4,True,E0056,2023-04-10
+E0232,Employee_232,Product,Manager,9.6,229492,4.56,91.9,False,E0053,2015-11-12
+E0233,Employee_233,Finance,Engineer,14.9,102459,4.49,50.1,False,E0047,2024-08-29
+E0234,Employee_234,HR,Analyst,12.3,245257,4.6,64.9,False,E0077,2024-05-04
+E0235,Employee_235,Legal,Analyst,3.4,196945,3.52,45.3,True,E0068,2018-06-03
+E0236,Employee_236,Legal,Specialist,8.8,203419,2.16,71.8,True,E0090,2024-07-25
+E0237,Employee_237,Sales,Manager,9.7,53399,3.5,65.6,False,E0045,2015-07-13
+E0238,Employee_238,Marketing,Engineer,6.0,231155,2.58,95.3,True,E0010,2017-02-11
+E0239,Employee_239,Legal,Lead,5.1,201622,2.11,90.9,False,E0089,2020-04-09
+E0240,Employee_240,Engineering,Manager,7.2,92819,3.8,85.0,False,E0067,2021-10-02
+E0241,Employee_241,HR,Lead,3.5,232149,3.26,98.1,True,E0088,2023-09-16
+E0242,Employee_242,Legal,Lead,11.4,82417,2.46,91.0,True,E0078,2021-09-14
+E0243,Employee_243,Marketing,Manager,13.7,139659,2.32,88.5,True,E0077,2022-02-02
+E0244,Employee_244,Marketing,Director,8.5,67503,3.89,90.6,False,E0064,2022-11-09
+E0245,Employee_245,Customer Success,Manager,13.6,77864,4.46,99.5,True,E0052,2024-09-23
+E0246,Employee_246,Engineering,Engineer,10.5,153590,2.7,75.9,False,E0034,2024-02-05
+E0247,Employee_247,Finance,Specialist,11.6,115978,2.96,45.6,False,E0028,2016-02-05
+E0248,Employee_248,Engineering,Lead,3.8,173284,3.79,71.3,False,E0100,2023-09-14
+E0249,Employee_249,Engineering,Specialist,8.9,232390,3.98,61.7,False,E0018,2021-12-21
+E0250,Employee_250,Operations,Specialist,0.7,246413,3.83,92.0,True,E0059,2022-01-22
+E0251,Employee_251,Finance,Director,9.8,249343,4.78,65.1,True,E0009,2020-06-03
+E0252,Employee_252,Finance,Manager,14.5,173330,2.58,65.7,True,E0062,2024-11-02
+E0253,Employee_253,Marketing,Engineer,7.3,109339,4.12,98.5,True,E0040,2022-10-07
+E0254,Employee_254,Marketing,Specialist,2.7,120876,2.28,77.0,True,E0008,2016-06-27
+E0255,Employee_255,Finance,Manager,11.1,163738,2.94,94.1,True,E0070,2019-08-14
+E0256,Employee_256,Operations,Director,4.2,127733,4.28,73.2,False,E0020,2016-02-14
+E0257,Employee_257,Engineering,Manager,10.5,114133,4.43,85.2,True,E0090,2022-07-04
+E0258,Employee_258,Operations,Analyst,6.3,233907,4.68,45.5,False,E0085,2021-09-27
+E0259,Employee_259,HR,Analyst,14.8,52114,3.84,74.6,True,E0040,2015-09-24
+E0260,Employee_260,HR,Manager,9.4,212540,4.12,93.8,False,E0005,2020-07-20
+E0261,Employee_261,Operations,Specialist,2.2,135141,4.97,81.1,True,E0066,2018-08-03
+E0262,Employee_262,Marketing,Analyst,12.9,224954,4.71,86.8,True,E0083,2024-03-31
+E0263,Employee_263,HR,Analyst,4.9,120036,2.54,74.7,True,E0005,2017-03-28
+E0264,Employee_264,Marketing,Manager,7.3,236417,3.14,75.0,False,E0077,2022-02-10
+E0265,Employee_265,Marketing,Lead,5.3,110742,3.61,45.6,False,E0012,2016-12-10
+E0266,Employee_266,Sales,Specialist,12.4,247786,2.58,80.6,True,E0040,2024-05-12
+E0267,Employee_267,Operations,Specialist,9.5,89006,2.88,62.7,True,E0066,2016-06-03
+E0268,Employee_268,Finance,Director,6.3,102840,4.42,80.5,True,E0031,2023-05-09
+E0269,Employee_269,Finance,Analyst,5.7,243351,3.58,66.2,False,E0094,2017-11-20
+E0270,Employee_270,Design,Analyst,11.7,144888,4.44,50.5,True,E0094,2015-06-02
+E0271,Employee_271,Marketing,Analyst,14.2,85009,3.66,60.6,False,E0035,2021-04-21
+E0272,Employee_272,HR,Engineer,8.7,141067,2.49,85.5,False,E0078,2017-04-16
+E0273,Employee_273,Product,Specialist,13.0,115205,3.71,88.4,False,E0037,2018-01-19
+E0274,Employee_274,Finance,Director,9.1,173292,3.21,42.7,False,E0016,2018-08-31
+E0275,Employee_275,Design,Lead,3.2,59865,4.29,87.9,False,E0036,2024-01-01
+E0276,Employee_276,Design,Lead,14.3,105644,4.8,99.2,False,E0086,2016-07-12
+E0277,Employee_277,Design,Analyst,6.6,204414,3.62,74.8,False,E0003,2019-03-26
+E0278,Employee_278,Sales,Analyst,10.6,218421,2.07,91.8,False,E0075,2019-08-01
+E0279,Employee_279,Sales,Director,9.4,71505,2.24,97.8,True,E0068,2015-07-30
+E0280,Employee_280,Product,Engineer,5.2,175943,4.49,65.1,False,E0001,2017-12-03
+E0281,Employee_281,HR,Engineer,8.2,182430,3.27,41.2,True,E0050,2022-04-27
+E0282,Employee_282,Operations,Director,8.5,239583,4.05,52.3,True,E0048,2020-07-05
+E0283,Employee_283,Customer Success,Lead,7.9,54888,4.65,99.5,False,E0042,2021-11-06
+E0284,Employee_284,Engineering,Specialist,5.2,157206,3.23,82.4,True,E0063,2023-07-08
+E0285,Employee_285,Operations,Engineer,2.2,236628,4.25,55.9,True,E0072,2018-11-06
+E0286,Employee_286,Sales,Analyst,12.5,190786,3.76,94.0,False,E0016,2019-11-16
+E0287,Employee_287,Engineering,Manager,5.1,228910,4.58,72.3,False,E0055,2018-05-16
+E0288,Employee_288,Marketing,Analyst,13.1,128867,3.54,87.4,False,E0098,2023-05-08
+E0289,Employee_289,Finance,Lead,9.8,200200,2.73,84.9,True,E0086,2023-06-24
+E0290,Employee_290,Finance,Director,7.8,107864,2.06,90.4,True,E0099,2019-04-28
+E0291,Employee_291,Marketing,Analyst,8.3,148925,3.8,45.0,True,E0001,2015-11-22
+E0292,Employee_292,Operations,Specialist,13.8,146697,2.44,92.1,False,E0059,2023-07-07
+E0293,Employee_293,Design,Analyst,11.4,62785,4.67,63.2,False,E0019,2018-12-05
+E0294,Employee_294,Finance,Specialist,6.5,116513,2.91,56.9,False,E0052,2015-07-31
+E0295,Employee_295,Legal,Analyst,11.3,238410,2.73,46.3,True,E0087,2020-09-14
+E0296,Employee_296,Finance,Manager,5.7,228160,3.27,68.6,True,E0058,2016-09-08
+E0297,Employee_297,Finance,Engineer,13.3,129024,2.84,61.4,False,E0055,2024-11-24
+E0298,Employee_298,Customer Success,Manager,5.9,152868,3.33,58.8,True,E0066,2016-12-09
+E0299,Employee_299,Design,Lead,7.4,179996,2.79,69.7,False,E0079,2021-11-20
+E0300,Employee_300,Operations,Specialist,3.7,124779,4.52,82.8,True,E0076,2018-01-21
+E0301,Employee_301,Finance,Analyst,11.3,116519,4.63,92.2,True,E0061,2018-12-21
+E0302,Employee_302,Product,Analyst,8.5,123765,2.08,92.3,True,E0062,2019-05-14
+E0303,Employee_303,Product,Director,1.4,206440,3.34,52.0,True,E0010,2019-09-22
+E0304,Employee_304,Product,Manager,9.8,104515,2.18,75.3,True,E0083,2018-07-22
+E0305,Employee_305,Engineering,Lead,12.8,243586,2.1,64.5,False,E0046,2023-01-18
+E0306,Employee_306,Design,Manager,3.8,126154,4.17,60.6,False,E0084,2023-02-21
+E0307,Employee_307,Customer Success,Director,3.8,97262,4.74,91.9,True,E0053,2022-05-15
+E0308,Employee_308,Engineering,Specialist,10.3,225926,4.29,91.7,True,E0034,2019-10-27
+E0309,Employee_309,Engineering,Lead,11.1,68386,2.18,54.7,False,E0075,2020-03-25
+E0310,Employee_310,HR,Analyst,1.4,207288,4.07,75.9,False,E0041,2023-06-14
+E0311,Employee_311,Sales,Lead,1.7,133435,3.51,84.9,False,E0036,2015-11-26
+E0312,Employee_312,Customer Success,Engineer,4.8,130324,3.41,65.5,True,E0066,2019-07-04
+E0313,Employee_313,Customer Success,Lead,7.4,50015,2.84,67.7,False,E0052,2022-03-18
+E0314,Employee_314,Customer Success,Lead,13.3,235642,3.84,84.4,True,E0048,2022-07-12
+E0315,Employee_315,HR,Lead,8.9,54397,3.58,77.1,False,E0092,2019-07-14
+E0316,Employee_316,Finance,Specialist,3.6,241363,2.54,82.3,False,E0055,2016-11-03
+E0317,Employee_317,Engineering,Director,4.3,176138,4.04,77.4,False,E0023,2018-03-16
+E0318,Employee_318,Sales,Director,1.0,67624,2.65,45.3,False,E0049,2016-09-29
+E0319,Employee_319,Operations,Analyst,4.8,113867,2.64,75.4,True,E0033,2015-05-13
+E0320,Employee_320,Design,Director,2.7,169329,2.9,58.1,True,E0001,2020-02-02
+E0321,Employee_321,HR,Lead,4.1,77030,2.05,93.8,True,E0093,2017-02-08
+E0322,Employee_322,Design,Analyst,9.7,143676,4.98,72.2,False,E0053,2017-07-14
+E0323,Employee_323,Product,Analyst,4.7,103421,2.27,52.2,False,E0010,2018-06-24
+E0324,Employee_324,Finance,Engineer,2.3,184772,3.12,56.1,False,E0099,2020-09-01
+E0325,Employee_325,Design,Engineer,5.4,213053,4.81,86.5,False,E0082,2018-07-27
+E0326,Employee_326,Sales,Analyst,8.3,135948,3.03,77.4,True,E0074,2016-11-18
+E0327,Employee_327,Operations,Specialist,13.3,69916,4.75,98.3,False,E0043,2020-11-10
+E0328,Employee_328,Design,Engineer,5.8,140482,4.27,50.7,True,E0013,2019-01-18
+E0329,Employee_329,Finance,Director,8.1,199930,2.28,93.5,True,E0094,2021-08-03
+E0330,Employee_330,Finance,Lead,1.2,117685,4.6,51.3,True,E0091,2015-08-16
+E0331,Employee_331,Marketing,Director,13.7,76947,4.07,92.6,False,E0096,2021-10-21
+E0332,Employee_332,Finance,Engineer,12.6,242808,4.77,50.4,False,E0020,2024-06-07
+E0333,Employee_333,Finance,Director,1.5,72847,2.89,64.1,True,E0032,2020-04-18
+E0334,Employee_334,HR,Specialist,5.5,101321,4.55,97.1,False,E0029,2015-12-10
+E0335,Employee_335,Finance,Engineer,12.2,127812,2.03,66.5,True,E0086,2015-06-09
+E0336,Employee_336,Sales,Engineer,9.3,244091,3.22,76.8,False,E0085,2022-12-27
+E0337,Employee_337,HR,Director,7.0,244359,4.52,65.9,False,E0042,2023-08-12
+E0338,Employee_338,Operations,Engineer,11.8,244506,4.92,75.9,True,E0019,2024-12-09
+E0339,Employee_339,Legal,Lead,4.2,90029,2.17,58.4,True,E0080,2019-07-24
+E0340,Employee_340,Sales,Engineer,6.4,77431,4.75,84.9,False,E0089,2023-03-25
+E0341,Employee_341,Sales,Engineer,1.1,247592,4.66,91.0,True,E0021,2021-11-27
+E0342,Employee_342,Operations,Manager,12.0,82374,3.21,48.5,True,E0020,2022-06-13
+E0343,Employee_343,Sales,Specialist,12.2,143281,4.78,64.1,False,E0080,2022-09-15
+E0344,Employee_344,Customer Success,Manager,0.7,100738,3.89,69.8,True,E0096,2021-05-17
+E0345,Employee_345,Engineering,Director,8.6,86477,3.99,78.0,False,E0064,2015-01-16
+E0346,Employee_346,Marketing,Lead,9.5,62886,4.11,49.5,True,E0006,2016-06-14
+E0347,Employee_347,Product,Director,8.5,211398,3.48,47.7,True,E0072,2022-03-28
+E0348,Employee_348,Sales,Manager,9.2,73166,2.89,51.2,True,E0043,2020-03-11
+E0349,Employee_349,Design,Specialist,0.5,88645,4.74,96.9,False,E0003,2022-08-04
+E0350,Employee_350,Customer Success,Engineer,4.5,57518,2.52,96.1,True,E0034,2024-01-15
+E0351,Employee_351,Customer Success,Director,12.7,175070,2.79,97.3,False,E0089,2015-02-22
+E0352,Employee_352,HR,Engineer,10.8,56106,2.77,45.0,False,E0056,2021-10-22
+E0353,Employee_353,Operations,Manager,0.7,151955,2.99,90.5,False,E0018,2019-05-26
+E0354,Employee_354,Design,Lead,7.5,183341,4.78,66.6,False,E0045,2017-06-22
+E0355,Employee_355,Legal,Lead,12.5,69416,2.62,79.5,True,E0054,2019-10-10
+E0356,Employee_356,Marketing,Manager,12.7,56037,4.65,99.5,True,E0072,2022-04-04
+E0357,Employee_357,Engineering,Director,7.3,204434,2.83,85.2,True,E0097,2019-04-15
+E0358,Employee_358,Legal,Engineer,3.4,54371,2.62,47.3,False,E0067,2021-06-23
+E0359,Employee_359,HR,Specialist,3.8,94168,4.85,74.2,False,E0010,2021-07-31
+E0360,Employee_360,Sales,Director,7.0,197680,4.19,97.4,True,E0040,2021-08-10
+E0361,Employee_361,Marketing,Lead,3.7,143954,4.65,97.4,False,E0061,2019-12-10
+E0362,Employee_362,Engineering,Lead,5.1,107950,2.38,83.8,False,E0002,2017-05-30
+E0363,Employee_363,Design,Director,13.0,249003,3.55,88.9,False,E0043,2024-01-22
+E0364,Employee_364,Marketing,Lead,13.4,146353,4.32,96.4,True,E0021,2019-04-06
+E0365,Employee_365,Marketing,Specialist,8.1,50422,4.28,46.6,True,E0020,2020-11-22
+E0366,Employee_366,HR,Manager,0.8,183681,3.54,65.6,False,E0088,2017-10-02
+E0367,Employee_367,Customer Success,Analyst,13.6,217546,3.49,41.1,False,E0036,2024-04-30
+E0368,Employee_368,Design,Manager,7.3,120464,4.2,74.5,False,E0043,2018-08-19
+E0369,Employee_369,Sales,Manager,5.5,102603,2.24,68.7,False,E0088,2016-08-23
+E0370,Employee_370,HR,Lead,9.5,181844,4.1,69.3,False,E0036,2023-10-30
+E0371,Employee_371,Sales,Specialist,9.6,188035,3.16,93.2,True,E0055,2015-12-23
+E0372,Employee_372,HR,Engineer,12.6,220895,2.35,77.0,False,E0055,2019-12-23
+E0373,Employee_373,HR,Manager,4.2,156498,3.07,59.1,False,E0100,2017-11-19
+E0374,Employee_374,Customer Success,Director,13.3,210268,3.21,71.8,False,E0031,2022-03-11
+E0375,Employee_375,Engineering,Engineer,8.6,104144,3.05,70.3,True,E0008,2023-02-07
+E0376,Employee_376,Sales,Analyst,11.8,59866,2.26,84.2,False,E0084,2024-05-13
+E0377,Employee_377,Marketing,Manager,13.8,87901,2.38,56.8,True,E0040,2022-03-03
+E0378,Employee_378,Legal,Manager,7.3,157534,3.66,74.1,False,E0056,2023-08-30
+E0379,Employee_379,Engineering,Engineer,12.1,182684,4.91,56.5,True,E0026,2022-05-06
+E0380,Employee_380,Design,Engineer,1.3,137462,4.61,66.3,True,E0048,2018-05-13
+E0381,Employee_381,Design,Analyst,6.1,245787,3.46,95.7,False,E0034,2023-11-29
+E0382,Employee_382,Customer Success,Engineer,5.3,203556,2.46,63.6,False,E0063,2018-01-21
+E0383,Employee_383,Operations,Specialist,12.4,155617,3.9,48.3,True,E0007,2024-08-06
+E0384,Employee_384,HR,Specialist,3.3,232652,4.56,57.9,True,E0014,2022-01-20
+E0385,Employee_385,Marketing,Specialist,8.1,141494,3.23,84.3,True,E0065,2021-09-20
+E0386,Employee_386,Engineering,Manager,14.7,143694,4.91,83.4,True,E0072,2019-02-01
+E0387,Employee_387,Engineering,Specialist,7.6,139177,4.62,72.9,True,E0021,2017-10-04
+E0388,Employee_388,Marketing,Analyst,4.0,209210,3.11,68.7,False,E0037,2019-05-02
+E0389,Employee_389,Customer Success,Engineer,6.8,209779,4.33,41.3,False,E0044,2023-05-24
+E0390,Employee_390,Legal,Specialist,8.6,76228,3.82,43.9,False,E0048,2015-12-03
+E0391,Employee_391,Sales,Manager,8.7,230353,2.83,45.8,False,E0078,2019-02-25
+E0392,Employee_392,Marketing,Director,3.2,76295,3.29,56.5,True,E0067,2023-10-03
+E0393,Employee_393,Finance,Lead,11.8,138170,3.99,68.6,False,E0057,2023-07-08
+E0394,Employee_394,HR,Analyst,11.7,202659,4.69,68.9,False,E0042,2019-11-15
+E0395,Employee_395,Legal,Director,9.8,235693,2.63,90.1,True,E0099,2018-05-26
+E0396,Employee_396,Design,Analyst,9.9,76698,3.01,64.6,True,E0019,2019-11-05
+E0397,Employee_397,Engineering,Lead,4.1,210560,4.58,43.2,False,E0089,2023-02-21
+E0398,Employee_398,Operations,Engineer,5.3,144356,3.78,68.0,True,E0085,2017-09-14
+E0399,Employee_399,Sales,Engineer,14.3,218676,2.76,67.3,True,E0099,2015-07-15
+E0400,Employee_400,Legal,Director,3.8,68810,4.46,79.6,False,E0018,2018-03-24
+E0401,Employee_401,HR,Director,7.1,181198,3.01,55.3,True,E0044,2016-12-09
+E0402,Employee_402,Product,Director,1.6,189976,2.99,78.9,False,E0028,2018-01-12
+E0403,Employee_403,HR,Manager,3.7,87897,3.61,98.0,False,E0071,2021-12-12
+E0404,Employee_404,Legal,Director,7.4,206710,2.9,69.3,True,E0084,2015-03-14
+E0405,Employee_405,Customer Success,Engineer,2.5,189173,4.32,55.7,True,E0100,2019-08-02
+E0406,Employee_406,Customer Success,Manager,3.7,244422,4.21,87.2,False,E0057,2017-03-03
+E0407,Employee_407,Operations,Engineer,7.1,115961,3.2,75.6,False,E0082,2015-01-08
+E0408,Employee_408,Sales,Director,11.0,179158,4.01,69.3,True,E0038,2023-01-13
+E0409,Employee_409,Design,Director,10.8,199921,3.02,42.5,True,E0064,2016-05-24
+E0410,Employee_410,HR,Specialist,11.5,59720,2.37,41.5,False,E0013,2018-03-06
+E0411,Employee_411,Sales,Analyst,5.3,227682,2.09,90.8,True,E0057,2015-03-21
+E0412,Employee_412,Engineering,Analyst,7.0,219398,2.81,42.0,False,E0090,2023-05-29
+E0413,Employee_413,Marketing,Lead,4.8,228232,2.29,94.2,True,E0015,2021-09-12
+E0414,Employee_414,HR,Lead,12.2,111957,3.99,86.2,False,E0057,2023-05-27
+E0415,Employee_415,Finance,Director,15.0,162312,3.46,54.4,False,E0091,2019-07-04
+E0416,Employee_416,Legal,Analyst,0.9,65150,3.36,48.0,True,E0035,2020-11-29
+E0417,Employee_417,Sales,Manager,3.6,140546,4.46,85.2,True,E0010,2023-09-27
+E0418,Employee_418,Finance,Engineer,9.1,131235,2.49,78.1,True,E0056,2018-01-19
+E0419,Employee_419,Finance,Director,7.3,240625,3.7,66.5,True,E0089,2019-07-18
+E0420,Employee_420,Design,Engineer,3.1,224996,2.03,43.1,False,E0087,2018-01-02
+E0421,Employee_421,Finance,Director,11.7,164544,4.53,73.6,True,E0050,2023-01-31
+E0422,Employee_422,Engineering,Lead,2.8,139838,2.54,99.5,False,E0031,2024-03-30
+E0423,Employee_423,Product,Lead,14.2,235477,4.34,44.1,False,E0055,2023-03-07
+E0424,Employee_424,Sales,Engineer,12.2,226218,2.39,51.8,True,E0010,2021-07-17
+E0425,Employee_425,Marketing,Director,13.0,148988,2.25,46.5,False,E0083,2017-12-16
+E0426,Employee_426,Legal,Manager,12.7,212187,4.6,63.7,False,E0058,2021-02-16
+E0427,Employee_427,Operations,Analyst,13.7,233518,2.64,62.5,False,E0036,2017-12-17
+E0428,Employee_428,Sales,Engineer,7.9,230232,3.6,91.0,False,E0011,2018-03-19
+E0429,Employee_429,Customer Success,Analyst,3.0,54794,4.06,48.7,True,E0071,2017-05-25
+E0430,Employee_430,Design,Engineer,10.4,106724,3.33,97.1,False,E0066,2024-04-04
+E0431,Employee_431,Sales,Lead,11.7,123258,4.59,96.3,False,E0049,2018-05-17
+E0432,Employee_432,Marketing,Manager,0.6,69529,2.78,71.3,True,E0032,2022-07-10
+E0433,Employee_433,Operations,Engineer,13.5,79174,2.55,50.1,True,E0050,2018-08-18
+E0434,Employee_434,Finance,Engineer,7.7,153518,4.76,68.1,False,E0006,2015-02-16
+E0435,Employee_435,Legal,Engineer,14.9,223382,4.0,66.1,True,E0100,2023-03-19
+E0436,Employee_436,Customer Success,Manager,11.2,147825,2.01,65.3,False,E0089,2020-03-19
+E0437,Employee_437,Sales,Specialist,6.4,74591,3.5,42.5,False,E0072,2024-05-26
+E0438,Employee_438,Operations,Engineer,7.6,200550,2.67,53.6,True,E0050,2015-07-22
+E0439,Employee_439,Operations,Specialist,5.1,155016,2.77,65.8,False,E0014,2024-06-22
+E0440,Employee_440,Legal,Engineer,6.1,134646,4.15,81.1,True,E0078,2021-08-08
+E0441,Employee_441,Engineering,Analyst,11.8,115581,4.39,74.1,False,E0083,2022-08-24
+E0442,Employee_442,Finance,Director,2.1,223540,4.99,82.3,False,E0088,2015-03-05
+E0443,Employee_443,Sales,Lead,1.2,147979,3.68,46.0,False,E0070,2015-08-06
+E0444,Employee_444,Legal,Analyst,7.1,52824,3.39,50.5,False,E0032,2016-08-05
+E0445,Employee_445,Legal,Manager,9.6,154326,4.19,86.9,False,E0022,2015-10-02
+E0446,Employee_446,Engineering,Manager,2.8,161003,3.71,95.8,True,E0071,2019-07-03
+E0447,Employee_447,Design,Analyst,5.6,122442,3.54,48.5,True,E0026,2022-12-09
+E0448,Employee_448,HR,Lead,3.6,181985,4.48,51.5,True,E0001,2023-08-31
+E0449,Employee_449,HR,Analyst,3.7,135530,4.55,68.8,False,E0033,2019-07-31
+E0450,Employee_450,Legal,Manager,11.6,235078,3.04,41.6,True,E0095,2019-03-26
+E0451,Employee_451,Operations,Engineer,13.6,73180,2.45,72.6,True,E0012,2015-11-30
+E0452,Employee_452,HR,Director,7.8,216405,3.75,68.9,True,E0029,2021-05-29
+E0453,Employee_453,Legal,Analyst,1.7,179222,2.24,69.2,True,E0025,2018-10-20
+E0454,Employee_454,HR,Analyst,7.6,64937,4.68,58.2,True,E0033,2015-05-14
+E0455,Employee_455,Customer Success,Engineer,5.1,152802,2.76,88.5,False,E0027,2022-11-01
+E0456,Employee_456,Product,Analyst,8.5,80226,4.27,67.2,False,E0059,2017-09-06
+E0457,Employee_457,Customer Success,Engineer,0.3,123351,2.67,59.5,False,E0087,2020-03-18
+E0458,Employee_458,Finance,Engineer,9.7,173841,4.28,42.7,True,E0023,2022-02-14
+E0459,Employee_459,Legal,Analyst,11.3,239415,4.18,60.0,False,E0034,2017-12-18
+E0460,Employee_460,HR,Engineer,11.7,129218,3.63,93.8,True,E0076,2024-09-26
+E0461,Employee_461,Product,Specialist,12.1,80688,3.62,99.4,False,E0003,2018-05-28
+E0462,Employee_462,HR,Director,2.6,63491,3.37,86.8,False,E0075,2024-08-09
+E0463,Employee_463,Operations,Analyst,6.3,80767,2.32,43.1,False,E0051,2023-01-20
+E0464,Employee_464,Product,Director,4.5,244820,3.05,60.5,True,E0066,2018-06-10
+E0465,Employee_465,Product,Manager,2.7,229076,3.73,57.8,False,E0035,2021-05-04
+E0466,Employee_466,Engineering,Manager,8.8,209607,3.52,97.4,False,E0068,2022-08-18
+E0467,Employee_467,HR,Specialist,6.4,163737,3.14,75.4,True,E0084,2024-08-16
+E0468,Employee_468,Customer Success,Engineer,3.4,84659,4.79,86.9,False,E0005,2023-01-19
+E0469,Employee_469,Product,Analyst,13.4,165089,3.79,68.1,True,E0073,2022-01-03
+E0470,Employee_470,Customer Success,Manager,5.8,180286,3.41,51.0,False,E0009,2021-05-03
+E0471,Employee_471,Sales,Engineer,14.2,249043,2.72,61.5,True,E0071,2022-07-07
+E0472,Employee_472,Customer Success,Manager,3.0,58514,3.22,98.0,True,E0037,2021-09-11
+E0473,Employee_473,Marketing,Manager,3.1,113401,2.16,48.6,True,E0033,2017-04-06
+E0474,Employee_474,Customer Success,Engineer,11.9,235694,4.67,90.1,False,E0073,2018-02-20
+E0475,Employee_475,Finance,Specialist,13.8,154550,3.84,79.3,True,E0044,2017-11-25
+E0476,Employee_476,Design,Analyst,5.0,86850,3.8,45.4,False,E0032,2019-11-28
+E0477,Employee_477,Engineering,Engineer,11.8,119442,2.76,93.1,False,E0037,2020-05-29
+E0478,Employee_478,Product,Director,3.8,80526,4.89,77.9,True,E0033,2020-12-17
+E0479,Employee_479,HR,Director,14.5,87531,3.59,40.4,True,E0057,2016-11-13
+E0480,Employee_480,Operations,Manager,5.6,57828,3.44,91.6,False,E0071,2019-08-08
+E0481,Employee_481,Product,Lead,6.1,227926,2.54,53.7,True,E0022,2020-12-11
+E0482,Employee_482,Finance,Engineer,13.8,58960,4.71,45.6,False,E0072,2016-05-16
+E0483,Employee_483,Customer Success,Manager,14.3,201175,3.99,72.4,False,E0073,2019-07-02
+E0484,Employee_484,Product,Manager,13.8,186156,3.49,89.6,True,E0033,2020-11-18
+E0485,Employee_485,Marketing,Director,8.6,157136,2.52,89.0,False,E0086,2023-12-27
+E0486,Employee_486,Customer Success,Director,4.6,161964,2.03,51.7,True,E0070,2021-06-23
+E0487,Employee_487,Design,Engineer,7.2,55081,2.97,82.1,True,E0068,2021-03-30
+E0488,Employee_488,Operations,Director,10.3,89338,4.82,48.8,True,E0094,2020-06-20
+E0489,Employee_489,Engineering,Engineer,10.9,178214,3.08,62.0,False,E0009,2022-11-20
+E0490,Employee_490,Operations,Lead,7.6,86041,3.98,81.8,True,E0035,2019-06-20
+E0491,Employee_491,Customer Success,Manager,13.1,133764,3.95,41.1,True,E0046,2019-07-21
+E0492,Employee_492,Customer Success,Specialist,10.3,167261,2.76,50.2,True,E0030,2016-12-01
+E0493,Employee_493,Customer Success,Engineer,7.3,139562,2.88,72.6,True,E0026,2024-09-24
+E0494,Employee_494,Legal,Director,7.7,179344,2.43,54.3,True,E0051,2015-02-24
+E0495,Employee_495,Engineering,Analyst,0.9,73048,4.59,60.1,True,E0030,2020-12-30
+E0496,Employee_496,Customer Success,Analyst,1.3,244386,3.99,60.5,True,E0080,2016-07-05
+E0497,Employee_497,Product,Engineer,1.6,61608,4.17,73.9,False,E0078,2022-02-10
+E0498,Employee_498,Product,Specialist,2.2,211854,2.39,44.4,True,E0006,2024-07-01
+E0499,Employee_499,Design,Manager,8.3,238971,3.06,54.3,True,E0073,2016-05-03
+E0500,Employee_500,Engineering,Director,8.7,101826,4.26,75.1,True,E0076,2020-01-18
+E0501,Employee_501,HR,Lead,14.5,215578,4.73,94.9,True,E0010,2016-02-27
+E0502,Employee_502,Finance,Lead,9.8,71831,2.85,49.9,True,E0060,2019-10-25
+E0503,Employee_503,Product,Director,10.5,79019,4.98,97.8,True,E0039,2018-10-01
+E0504,Employee_504,Product,Manager,8.8,91537,3.16,60.7,True,E0067,2021-04-18
+E0505,Employee_505,Finance,Specialist,1.2,128742,3.96,97.1,False,E0094,2021-02-12
+E0506,Employee_506,Finance,Specialist,6.6,170871,3.44,92.9,False,E0039,2020-01-16
+E0507,Employee_507,Operations,Manager,9.5,139812,4.58,77.4,False,E0067,2017-02-22
+E0508,Employee_508,Marketing,Lead,14.6,148668,3.09,46.6,False,E0097,2020-07-22
+E0509,Employee_509,Operations,Manager,13.4,227300,3.94,90.1,True,E0098,2022-12-22
+E0510,Employee_510,Finance,Director,13.9,219679,2.06,57.8,False,E0061,2024-01-15
+E0511,Employee_511,Customer Success,Engineer,9.5,239004,2.15,57.2,True,E0054,2021-07-08
+E0512,Employee_512,HR,Analyst,3.6,158842,2.38,92.7,False,E0049,2022-11-03
+E0513,Employee_513,Marketing,Manager,5.6,205687,2.46,42.0,False,E0077,2022-10-15
+E0514,Employee_514,Engineering,Lead,11.5,238175,4.87,95.4,True,E0013,2017-08-03
+E0515,Employee_515,HR,Manager,7.1,78503,4.83,46.8,False,E0024,2022-08-12
+E0516,Employee_516,Marketing,Analyst,4.8,67257,2.78,97.6,False,E0054,2024-03-11
+E0517,Employee_517,Engineering,Engineer,9.6,186761,2.8,95.1,True,E0028,2021-05-30
+E0518,Employee_518,Legal,Lead,14.8,121538,3.35,58.4,True,E0074,2018-09-13
+E0519,Employee_519,Finance,Specialist,11.5,211600,3.25,64.9,False,E0062,2021-01-15
+E0520,Employee_520,Sales,Director,3.9,206009,2.06,50.1,False,E0099,2023-12-10
+E0521,Employee_521,Operations,Analyst,11.0,111938,3.21,40.6,True,E0019,2016-10-31
+E0522,Employee_522,Legal,Engineer,8.7,234332,4.91,43.3,False,E0059,2021-10-14
+E0523,Employee_523,Sales,Specialist,4.8,88181,3.35,69.3,False,E0041,2019-07-24
+E0524,Employee_524,Engineering,Specialist,13.8,96146,3.92,47.5,False,E0077,2017-11-30
+E0525,Employee_525,Engineering,Specialist,6.6,145337,4.43,56.1,True,E0080,2016-08-11
+E0526,Employee_526,Operations,Manager,10.3,154921,3.76,56.6,True,E0095,2017-03-15
+E0527,Employee_527,Legal,Manager,11.9,230588,3.04,70.8,True,E0043,2023-09-22
+E0528,Employee_528,Finance,Manager,12.4,183940,2.3,53.3,True,E0062,2020-02-14
+E0529,Employee_529,Operations,Director,3.9,228051,2.62,50.8,True,E0055,2017-08-10
+E0530,Employee_530,Sales,Manager,2.5,248745,3.43,55.2,False,E0025,2018-06-24
+E0531,Employee_531,Product,Manager,1.0,110332,3.04,59.5,True,E0052,2023-01-05
+E0532,Employee_532,Marketing,Manager,12.4,135630,2.29,41.7,True,E0047,2015-07-17
+E0533,Employee_533,HR,Lead,12.9,64192,4.41,97.4,False,E0082,2018-12-31
+E0534,Employee_534,Engineering,Director,2.4,219772,4.45,80.5,False,E0051,2022-10-31
+E0535,Employee_535,Sales,Engineer,9.0,90965,3.11,62.3,True,E0017,2018-06-05
+E0536,Employee_536,Finance,Lead,12.1,59330,4.82,86.2,True,E0076,2018-08-06
+E0537,Employee_537,Finance,Specialist,14.6,140507,4.71,61.0,True,E0094,2016-01-09
+E0538,Employee_538,Operations,Lead,14.4,249777,4.92,77.0,False,E0015,2022-09-21
+E0539,Employee_539,Product,Director,5.5,81791,4.68,63.5,True,E0023,2018-09-26
+E0540,Employee_540,Marketing,Director,6.3,54574,4.52,65.8,False,E0018,2020-10-10
+E0541,Employee_541,Sales,Specialist,10.1,190626,3.97,93.5,False,E0031,2024-06-24
+E0542,Employee_542,Marketing,Engineer,13.1,50203,3.37,96.4,False,E0006,2018-07-18
+E0543,Employee_543,Marketing,Engineer,4.9,197423,3.98,70.1,False,E0086,2018-03-30
+E0544,Employee_544,Customer Success,Lead,6.8,70275,2.92,81.2,False,E0004,2022-04-25
+E0545,Employee_545,Engineering,Specialist,11.5,59946,2.33,44.7,False,E0098,2020-08-31
+E0546,Employee_546,Customer Success,Specialist,1.6,63121,4.2,76.0,False,E0066,2023-06-17
+E0547,Employee_547,Design,Lead,1.7,205686,2.62,56.9,False,E0085,2020-11-18
+E0548,Employee_548,Customer Success,Manager,8.4,79853,3.22,70.5,False,E0012,2016-04-14
+E0549,Employee_549,HR,Analyst,14.0,61992,4.98,77.7,False,E0043,2020-11-30
+E0550,Employee_550,Design,Lead,11.4,149665,3.44,71.4,True,E0062,2019-06-28
+E0551,Employee_551,Product,Manager,12.4,239792,3.91,73.2,False,E0058,2016-10-01
+E0552,Employee_552,Finance,Analyst,3.3,160093,2.85,68.0,True,E0094,2016-09-24
+E0553,Employee_553,Engineering,Lead,3.5,154947,3.81,97.1,False,E0014,2023-02-15
+E0554,Employee_554,Operations,Director,14.7,209269,3.65,64.7,True,E0034,2022-03-12
+E0555,Employee_555,Product,Director,8.6,163975,3.14,70.9,False,E0058,2019-05-07
+E0556,Employee_556,Sales,Lead,5.2,178823,4.68,45.0,False,E0046,2019-03-07
+E0557,Employee_557,Engineering,Director,10.1,145798,4.46,52.4,False,E0032,2019-11-01
+E0558,Employee_558,Sales,Lead,0.9,214054,3.97,52.6,True,E0003,2023-06-02
+E0559,Employee_559,Engineering,Manager,5.4,140728,3.29,85.5,True,E0031,2023-01-27
+E0560,Employee_560,Product,Specialist,7.3,113426,2.06,52.0,False,E0064,2023-08-23
+E0561,Employee_561,Design,Analyst,1.8,92175,4.52,46.5,False,E0071,2022-09-17
+E0562,Employee_562,Marketing,Engineer,12.8,87637,2.79,43.5,False,E0038,2020-05-22
+E0563,Employee_563,HR,Engineer,9.9,139679,2.89,99.6,True,E0086,2018-10-12
+E0564,Employee_564,Legal,Lead,12.7,198905,4.54,64.1,False,E0031,2021-04-27
+E0565,Employee_565,Design,Analyst,2.2,148961,2.29,52.9,True,E0099,2020-11-01
+E0566,Employee_566,Finance,Lead,3.5,225964,2.18,41.8,True,E0038,2018-03-01
+E0567,Employee_567,HR,Manager,9.3,212125,4.81,99.2,False,E0089,2017-07-04
+E0568,Employee_568,Operations,Engineer,6.7,198934,3.7,78.6,False,E0035,2023-01-03
+E0569,Employee_569,Customer Success,Manager,7.8,180162,4.08,61.6,False,E0021,2019-08-20
+E0570,Employee_570,HR,Manager,6.9,135801,3.9,43.3,True,E0017,2016-08-18
+E0571,Employee_571,Engineering,Manager,3.5,125227,2.12,62.9,False,E0058,2017-10-20
+E0572,Employee_572,Sales,Manager,5.5,222830,3.11,73.8,True,E0034,2024-07-26
+E0573,Employee_573,Design,Specialist,2.7,182865,4.65,40.7,True,E0053,2016-02-23
+E0574,Employee_574,Customer Success,Engineer,10.7,80083,4.55,53.1,True,E0063,2019-07-07
+E0575,Employee_575,Design,Director,11.6,177379,3.9,42.0,False,E0025,2020-11-29
+E0576,Employee_576,Sales,Director,2.3,152474,3.83,89.7,False,E0039,2019-09-02
+E0577,Employee_577,Marketing,Engineer,2.3,118032,4.08,49.0,False,E0025,2018-05-25
+E0578,Employee_578,Sales,Manager,13.1,111526,3.39,58.0,True,E0029,2023-02-14
+E0579,Employee_579,Sales,Lead,0.7,89976,3.14,62.8,True,E0034,2015-10-29
+E0580,Employee_580,Sales,Lead,11.5,225514,3.72,40.4,True,E0004,2023-11-02
+E0581,Employee_581,Product,Engineer,13.1,198861,4.5,47.4,True,E0075,2017-12-16
+E0582,Employee_582,Legal,Manager,11.1,149186,4.87,80.6,True,E0039,2024-01-08
+E0583,Employee_583,Product,Analyst,8.5,225395,4.33,57.4,True,E0029,2023-02-22
+E0584,Employee_584,Sales,Director,1.6,248080,2.21,46.2,True,E0040,2017-12-08
+E0585,Employee_585,HR,Engineer,10.5,110674,2.47,78.2,False,E0076,2015-02-09
+E0586,Employee_586,Engineering,Director,4.8,60106,3.51,64.8,False,E0007,2022-07-01
+E0587,Employee_587,Customer Success,Analyst,1.7,223167,4.45,67.5,True,E0009,2024-01-18
+E0588,Employee_588,Finance,Engineer,4.1,142717,4.29,63.4,False,E0061,2015-03-31
+E0589,Employee_589,Marketing,Analyst,5.1,173835,3.8,87.4,False,E0093,2016-05-27
+E0590,Employee_590,Engineering,Manager,3.4,167894,2.8,77.1,False,E0001,2018-01-01
+E0591,Employee_591,Finance,Manager,9.2,235602,2.69,84.9,False,E0012,2021-10-11
+E0592,Employee_592,Customer Success,Director,1.2,151006,2.05,50.1,False,E0045,2017-01-31
+E0593,Employee_593,Sales,Specialist,9.8,61920,3.04,95.5,False,E0031,2017-08-15
+E0594,Employee_594,Engineering,Engineer,0.6,189936,3.81,78.6,False,E0053,2015-12-25
+E0595,Employee_595,Sales,Manager,5.0,153852,2.11,95.9,True,E0008,2023-10-28
+E0596,Employee_596,Product,Director,14.3,154859,3.39,58.0,False,E0100,2018-02-24
+E0597,Employee_597,Legal,Lead,8.9,183369,2.76,44.2,True,E0084,2022-02-16
+E0598,Employee_598,Customer Success,Engineer,0.6,64039,4.76,67.4,False,E0001,2017-10-06
+E0599,Employee_599,Sales,Analyst,7.4,108175,3.96,58.8,False,E0077,2023-06-14
+E0600,Employee_600,Finance,Engineer,6.8,77069,2.33,93.1,False,E0014,2017-03-19

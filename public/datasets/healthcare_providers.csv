@@ -1,0 +1,401 @@
+provider_id,name,specialty,state,city,npi,years_experience,patient_volume,avg_rating,accepts_medicare,claim_count,approval_rate
+P0001,Dr. Smith B,Orthopedics,TX,Downtown,1958682846,7,4517,3.17,False,140,0.563
+P0002,Dr. Garcia C,Emergency,FL,Bay,9703905715,13,4514,3.84,False,2423,0.67
+P0003,Dr. Patel D,Psychiatry,CA,Lakeside,2193448329,14,2807,3.2,False,406,0.704
+P0004,Dr. Singh E,Orthopedics,IL,Metro,8429141456,35,1072,4.95,False,332,0.787
+P0005,Dr. Chen F,Internal Medicine,NC,Downtown,4026113008,3,1916,4.55,True,963,0.923
+P0006,Dr. Kim G,Radiology,PA,Park,8877444318,11,3082,3.71,False,2884,0.953
+P0007,Dr. Singh H,Oncology,TX,Bay,4131575764,11,3836,3.76,True,2814,0.689
+P0008,Dr. Garcia I,Cardiology,CA,Lakeside,7017956955,5,1778,4.83,False,880,0.832
+P0009,Dr. Davis J,Oncology,PA,Lakeside,1599707677,36,4465,3.53,False,2400,0.722
+P0010,Dr. Patel K,Emergency,FL,Hill,1470939445,11,3508,4.19,False,1573,0.806
+P0011,Dr. Wilson L,Orthopedics,OH,Bay,9639245200,8,4448,4.5,False,466,0.676
+P0012,Dr. Davis M,Cardiology,NY,Park,4919706735,20,4208,4.22,True,1541,0.878
+P0013,Dr. Wilson N,Cardiology,GA,Bay,6687206971,2,966,4.86,False,990,0.575
+P0014,Dr. Lee O,Pediatrics,NC,Park,4289233844,9,3943,4.89,True,1095,0.777
+P0015,Dr. Brown P,Neurology,NC,Bay,3962958940,20,3318,4.99,False,1804,0.937
+P0016,Dr. Lee Q,Neurology,OH,Downtown,5569956444,2,4869,4.11,True,39,0.581
+P0017,Dr. Garcia R,Pediatrics,CA,Metro,8987073217,5,4261,3.48,False,887,0.782
+P0018,Dr. Singh S,Radiology,NC,Downtown,8664882079,27,1609,3.19,False,1461,0.732
+P0019,Dr. Smith T,Pediatrics,OH,Metro,4700855390,16,1619,3.38,False,584,0.731
+P0020,Dr. Davis U,Neurology,WA,Metro,3363629219,4,4478,4.67,True,978,0.622
+P0021,Dr. Davis V,Neurology,OH,Hill,4875962612,11,3154,3.0,False,1096,0.948
+P0022,Dr. Kim W,Psychiatry,OH,Park,8380507338,10,1605,3.59,True,2382,0.866
+P0023,Dr. Chen X,Cardiology,CA,Metro,7803990970,33,4400,3.31,True,771,0.579
+P0024,Dr. Garcia Y,Psychiatry,TX,Metro,3446737272,38,4920,3.08,True,1727,0.833
+P0025,Dr. Wilson Z,Dermatology,NC,Lakeside,8370987661,16,2225,3.79,False,1882,0.686
+P0026,Dr. Smith A,Radiology,TX,Bay,5278201677,5,4454,3.43,False,552,0.951
+P0027,Dr. Garcia B,Dermatology,TX,Lakeside,5972484792,35,2528,4.22,True,2745,0.901
+P0028,Dr. Lee C,Oncology,WA,Lakeside,3376077463,18,2358,4.21,False,843,0.846
+P0029,Dr. Wilson D,Radiology,WA,Lakeside,4633987776,6,3519,4.66,True,24,0.693
+P0030,Dr. Kim E,Oncology,NY,Park,8325785916,36,129,3.22,True,2244,0.565
+P0031,Dr. Singh F,Emergency,IL,Downtown,2845919895,3,2575,3.73,True,1475,0.64
+P0032,Dr. Lee G,Dermatology,FL,Bay,4993808565,11,1500,4.76,True,744,0.867
+P0033,Dr. Brown H,Neurology,IL,Lakeside,4011966884,25,367,4.72,True,827,0.901
+P0034,Dr. Chen I,Orthopedics,OH,Downtown,1957449367,13,3314,3.66,True,1153,0.701
+P0035,Dr. Brown J,Emergency,GA,Lakeside,5033992825,8,2189,3.36,False,166,0.597
+P0036,Dr. Chen K,Dermatology,PA,Hill,3196545325,25,4773,3.38,True,2913,0.738
+P0037,Dr. Wilson L,Neurology,GA,Lakeside,2852408227,22,2621,4.33,True,2958,0.937
+P0038,Dr. Kim M,Psychiatry,GA,Lakeside,1546696950,27,3155,4.35,True,2531,0.795
+P0039,Dr. Wilson N,Cardiology,PA,Lakeside,2232285036,28,4801,4.21,False,1914,0.74
+P0040,Dr. Wilson O,Radiology,FL,Park,5659161352,33,2795,3.19,True,2765,0.683
+P0041,Dr. Patel P,Cardiology,FL,Metro,5607762160,27,4765,3.39,False,2034,0.722
+P0042,Dr. Smith Q,Pediatrics,NY,Hill,1939915527,34,3855,3.1,True,507,0.746
+P0043,Dr. Wilson R,Emergency,OH,Bay,8995059760,29,2173,4.5,False,2145,0.758
+P0044,Dr. Kim S,Radiology,FL,Metro,8359619163,16,2275,3.67,True,576,0.615
+P0045,Dr. Patel T,Neurology,PA,Metro,7076811348,22,4495,3.93,True,857,0.908
+P0046,Dr. Singh U,Cardiology,PA,Bay,6928691380,1,2931,3.6,False,1726,0.781
+P0047,Dr. Singh V,Neurology,GA,Hill,6237376063,28,4028,3.06,False,2749,0.842
+P0048,Dr. Patel W,Radiology,PA,Downtown,3294043548,26,4898,4.13,True,353,0.826
+P0049,Dr. Davis X,Oncology,NY,Metro,6412330148,21,1783,3.91,False,1562,0.67
+P0050,Dr. Kim Y,Pediatrics,PA,Hill,9673185158,35,476,5.0,False,928,0.83
+P0051,Dr. Smith Z,Neurology,CA,Downtown,4604460472,40,1298,3.48,False,2752,0.599
+P0052,Dr. Davis A,Orthopedics,FL,Lakeside,4518871744,20,935,4.16,False,2368,0.841
+P0053,Dr. Brown B,Neurology,PA,Metro,2043030161,20,4968,4.61,True,1432,0.779
+P0054,Dr. Lee C,Emergency,IL,Park,2465576748,27,4065,3.21,False,2613,0.933
+P0055,Dr. Patel D,Psychiatry,OH,Downtown,7371573279,28,4903,3.54,True,364,0.67
+P0056,Dr. Garcia E,Radiology,OH,Bay,6922713963,2,4099,4.7,True,2007,0.641
+P0057,Dr. Chen F,Orthopedics,WA,Bay,9633533290,13,751,3.48,False,2011,0.789
+P0058,Dr. Davis G,Radiology,FL,Hill,4405620755,6,2460,3.44,True,1264,0.836
+P0059,Dr. Davis H,Emergency,IL,Bay,6771394050,36,2759,3.7,False,1119,0.682
+P0060,Dr. Lee I,Neurology,FL,Lakeside,1795212538,14,4016,3.55,False,421,0.908
+P0061,Dr. Garcia J,Dermatology,WA,Downtown,2298229437,35,1086,3.55,True,2276,0.676
+P0062,Dr. Davis K,Pediatrics,NY,Metro,7760554363,31,3971,3.88,True,220,0.659
+P0063,Dr. Lee L,Pediatrics,OH,Hill,3112035409,37,489,3.3,False,358,0.977
+P0064,Dr. Wilson M,Psychiatry,TX,Bay,3656086594,34,3166,3.9,False,1227,0.92
+P0065,Dr. Kim N,Internal Medicine,PA,Bay,9848621776,7,1752,4.25,False,2715,0.585
+P0066,Dr. Patel O,Emergency,FL,Metro,1672302490,27,3740,4.38,False,1202,0.564
+P0067,Dr. Kim P,Radiology,WA,Metro,3952295757,17,4881,4.32,True,1751,0.599
+P0068,Dr. Patel Q,Orthopedics,FL,Downtown,1306702926,11,2569,4.19,False,1808,0.603
+P0069,Dr. Brown R,Orthopedics,WA,Bay,7614170462,29,708,4.2,False,1330,0.81
+P0070,Dr. Lee S,Neurology,CA,Park,5083595988,18,4770,3.08,True,1937,0.773
+P0071,Dr. Kim T,Oncology,OH,Bay,8792122716,6,3900,3.7,False,1325,0.838
+P0072,Dr. Chen U,Psychiatry,NY,Park,7422990551,26,4556,3.07,True,1298,0.659
+P0073,Dr. Brown V,Emergency,TX,Metro,7625389037,27,494,3.38,False,2560,0.875
+P0074,Dr. Smith W,Neurology,OH,Lakeside,3358880404,19,3639,4.76,False,507,0.562
+P0075,Dr. Garcia X,Oncology,NC,Lakeside,3365835550,36,3392,3.19,True,1900,0.957
+P0076,Dr. Davis Y,Orthopedics,NY,Bay,8324687182,27,4002,4.96,True,1880,0.787
+P0077,Dr. Garcia Z,Internal Medicine,PA,Bay,5594799319,27,2834,4.87,False,20,0.672
+P0078,Dr. Singh A,Internal Medicine,WA,Park,5933179746,35,4017,3.69,False,1875,0.951
+P0079,Dr. Garcia B,Internal Medicine,FL,Hill,8625905455,3,2656,4.49,False,1591,0.975
+P0080,Dr. Davis C,Cardiology,NY,Downtown,7829772942,7,3656,3.2,False,72,0.861
+P0081,Dr. Patel D,Pediatrics,PA,Hill,6433231472,40,3306,4.3,False,2772,0.92
+P0082,Dr. Chen E,Radiology,PA,Bay,9744120054,5,1973,4.26,False,941,0.871
+P0083,Dr. Lee F,Pediatrics,PA,Hill,1124327519,21,509,3.59,False,1774,0.613
+P0084,Dr. Brown G,Internal Medicine,GA,Park,4403845222,11,1484,3.16,False,2548,0.844
+P0085,Dr. Singh H,Oncology,OH,Downtown,6385791669,17,126,4.8,False,1188,0.841
+P0086,Dr. Lee I,Radiology,NY,Lakeside,9426850694,17,3792,4.69,True,1585,0.917
+P0087,Dr. Garcia J,Psychiatry,TX,Bay,8298348088,2,3292,3.55,True,2493,0.87
+P0088,Dr. Garcia K,Internal Medicine,WA,Lakeside,5464285982,29,323,4.16,True,379,0.941
+P0089,Dr. Brown L,Oncology,IL,Downtown,9467483275,34,4160,4.83,True,1062,0.943
+P0090,Dr. Kim M,Dermatology,OH,Metro,1323408297,15,3305,4.93,False,379,0.89
+P0091,Dr. Kim N,Emergency,CA,Metro,7248258423,17,4838,3.76,False,453,0.84
+P0092,Dr. Smith O,Internal Medicine,OH,Bay,3620283102,5,3853,4.82,False,2669,0.726
+P0093,Dr. Smith P,Cardiology,NY,Lakeside,9572442790,8,846,3.47,True,1601,0.745
+P0094,Dr. Brown Q,Internal Medicine,GA,Park,4120719599,27,861,4.67,False,1155,0.564
+P0095,Dr. Garcia R,Radiology,IL,Hill,5082603360,24,863,4.96,False,2240,0.938
+P0096,Dr. Smith S,Psychiatry,IL,Lakeside,2952996248,14,4941,4.94,True,1376,0.655
+P0097,Dr. Singh T,Neurology,NY,Metro,3380304322,38,1819,4.63,True,1355,0.883
+P0098,Dr. Smith U,Orthopedics,NC,Downtown,5241397494,35,2103,4.6,True,2717,0.923
+P0099,Dr. Smith V,Dermatology,NY,Downtown,7824071339,2,1477,3.53,True,1734,0.776
+P0100,Dr. Davis W,Radiology,TX,Lakeside,5763350700,33,1864,4.89,True,2988,0.887
+P0101,Dr. Kim X,Radiology,GA,Park,5140460939,4,3973,4.69,False,2820,0.596
+P0102,Dr. Lee Y,Pediatrics,OH,Lakeside,3612617557,5,1083,3.55,False,1570,0.978
+P0103,Dr. Kim Z,Radiology,GA,Bay,7895255573,7,987,4.71,True,1771,0.744
+P0104,Dr. Brown A,Dermatology,FL,Hill,7007500393,7,2610,3.85,False,1543,0.96
+P0105,Dr. Lee B,Pediatrics,OH,Metro,5695387521,7,3102,4.62,True,2412,0.961
+P0106,Dr. Chen C,Pediatrics,GA,Hill,8517413631,4,2406,4.2,False,434,0.799
+P0107,Dr. Patel D,Radiology,FL,Downtown,4639017775,23,4606,3.74,False,2361,0.647
+P0108,Dr. Wilson E,Internal Medicine,PA,Bay,3391179068,39,2240,3.06,False,2888,0.878
+P0109,Dr. Chen F,Cardiology,IL,Downtown,4736031885,37,3333,3.14,True,385,0.871
+P0110,Dr. Brown G,Psychiatry,FL,Hill,2464137110,24,2602,4.44,True,225,0.617
+P0111,Dr. Smith H,Pediatrics,NC,Lakeside,7116096874,39,3671,3.83,True,2108,0.599
+P0112,Dr. Lee I,Orthopedics,PA,Park,8160279830,3,1856,3.79,True,41,0.638
+P0113,Dr. Patel J,Orthopedics,FL,Lakeside,2409274786,1,4124,4.49,True,539,0.713
+P0114,Dr. Wilson K,Emergency,FL,Park,8757570742,5,3302,4.72,True,1796,0.558
+P0115,Dr. Chen L,Internal Medicine,TX,Hill,7757700186,27,2421,3.23,True,1340,0.624
+P0116,Dr. Davis M,Dermatology,NC,Metro,1454678712,28,4874,3.8,True,1631,0.924
+P0117,Dr. Garcia N,Dermatology,IL,Downtown,9917981516,8,4396,4.02,False,1448,0.863
+P0118,Dr. Garcia O,Pediatrics,NY,Downtown,2099375147,12,4984,3.31,True,735,0.959
+P0119,Dr. Davis P,Internal Medicine,OH,Bay,7977267911,21,1286,3.88,False,1821,0.821
+P0120,Dr. Singh Q,Cardiology,WA,Lakeside,3178995337,20,3832,3.9,True,1520,0.908
+P0121,Dr. Lee R,Internal Medicine,TX,Bay,7472806994,30,4804,4.11,True,1852,0.941
+P0122,Dr. Garcia S,Dermatology,NC,Bay,5560712830,7,2863,4.96,True,2076,0.828
+P0123,Dr. Garcia T,Radiology,CA,Hill,3619094295,24,3104,4.84,False,1684,0.883
+P0124,Dr. Smith U,Dermatology,NC,Metro,2416011033,36,3216,3.57,True,1375,0.585
+P0125,Dr. Chen V,Orthopedics,NY,Park,2683446724,39,744,3.62,False,2645,0.89
+P0126,Dr. Wilson W,Pediatrics,NY,Park,8174554059,33,3014,3.04,False,748,0.959
+P0127,Dr. Davis X,Neurology,IL,Downtown,5294866888,10,682,3.59,True,2089,0.881
+P0128,Dr. Smith Y,Dermatology,GA,Bay,2617999521,11,1531,4.66,True,2963,0.738
+P0129,Dr. Chen Z,Neurology,PA,Hill,7917454662,29,1966,4.07,False,1931,0.939
+P0130,Dr. Chen A,Internal Medicine,FL,Hill,7560389844,11,1685,4.6,True,1034,0.572
+P0131,Dr. Chen B,Emergency,OH,Metro,5830454240,6,1363,3.55,True,1801,0.589
+P0132,Dr. Davis C,Dermatology,FL,Metro,2781968664,26,4162,3.75,False,344,0.711
+P0133,Dr. Chen D,Pediatrics,CA,Park,8086527181,10,1177,3.08,False,2861,0.907
+P0134,Dr. Davis E,Internal Medicine,OH,Metro,4890628295,2,2146,3.43,True,2257,0.954
+P0135,Dr. Wilson F,Psychiatry,NC,Metro,8628603366,16,2517,3.24,True,1729,0.825
+P0136,Dr. Davis G,Pediatrics,NC,Metro,3302333490,33,4760,3.48,True,1203,0.735
+P0137,Dr. Chen H,Neurology,NC,Bay,2789144223,6,4338,4.95,True,2164,0.784
+P0138,Dr. Wilson I,Cardiology,GA,Hill,9045897249,3,3219,4.96,False,76,0.704
+P0139,Dr. Chen J,Neurology,TX,Park,8544878538,9,413,3.7,False,2642,0.625
+P0140,Dr. Davis K,Oncology,OH,Downtown,9860949331,30,352,3.59,True,827,0.931
+P0141,Dr. Kim L,Emergency,IL,Hill,7627266377,17,349,4.51,True,1181,0.703
+P0142,Dr. Chen M,Orthopedics,CA,Metro,8728116828,28,3326,4.49,False,1398,0.969
+P0143,Dr. Davis N,Dermatology,OH,Bay,9944748312,28,696,3.86,True,2244,0.676
+P0144,Dr. Lee O,Dermatology,TX,Park,6564731230,29,4986,4.44,True,2835,0.741
+P0145,Dr. Smith P,Dermatology,OH,Bay,9581991473,18,519,3.15,False,1498,0.771
+P0146,Dr. Smith Q,Oncology,NY,Bay,2881937953,9,600,3.47,False,1493,0.715
+P0147,Dr. Smith R,Internal Medicine,NC,Downtown,8211516617,24,3097,3.89,True,2360,0.609
+P0148,Dr. Brown S,Dermatology,IL,Park,2196963451,8,262,4.47,False,2130,0.716
+P0149,Dr. Lee T,Orthopedics,GA,Lakeside,8318786687,14,2389,4.39,False,829,0.603
+P0150,Dr. Davis U,Oncology,TX,Park,9868845806,35,2428,4.78,True,2925,0.855
+P0151,Dr. Chen V,Emergency,NY,Downtown,1596471620,32,265,3.72,False,1924,0.896
+P0152,Dr. Patel W,Internal Medicine,GA,Metro,5577353273,26,3971,4.05,False,2364,0.582
+P0153,Dr. Lee X,Radiology,IL,Hill,2479679716,36,4865,3.36,True,1782,0.766
+P0154,Dr. Lee Y,Emergency,CA,Downtown,2306204982,11,2693,4.87,True,1427,0.957
+P0155,Dr. Kim Z,Pediatrics,GA,Lakeside,2178758213,20,4420,3.19,True,2434,0.955
+P0156,Dr. Patel A,Internal Medicine,NY,Park,4709911999,6,422,4.9,False,2677,0.641
+P0157,Dr. Brown B,Internal Medicine,NC,Park,5425044246,35,2422,4.28,False,1988,0.655
+P0158,Dr. Kim C,Radiology,PA,Metro,3957572769,11,3651,3.83,False,845,0.696
+P0159,Dr. Chen D,Dermatology,NY,Park,2712474804,24,4268,4.12,False,1000,0.751
+P0160,Dr. Davis E,Neurology,WA,Downtown,1415802902,19,3196,4.73,False,1026,0.964
+P0161,Dr. Chen F,Internal Medicine,NY,Park,2343100352,11,4131,4.99,False,2052,0.928
+P0162,Dr. Smith G,Pediatrics,OH,Hill,7465834732,16,1812,4.17,True,217,0.671
+P0163,Dr. Davis H,Orthopedics,NC,Bay,5756663747,9,2216,4.46,False,1508,0.569
+P0164,Dr. Singh I,Emergency,CA,Downtown,2239534867,25,4180,3.9,False,2562,0.843
+P0165,Dr. Patel J,Pediatrics,TX,Hill,9533188043,36,3045,4.51,True,2477,0.769
+P0166,Dr. Smith K,Cardiology,GA,Metro,2962750929,39,4273,3.28,False,675,0.719
+P0167,Dr. Kim L,Internal Medicine,NC,Lakeside,7712708591,31,186,3.74,True,1716,0.801
+P0168,Dr. Singh M,Radiology,CA,Lakeside,3480920839,4,4830,3.96,False,615,0.903
+P0169,Dr. Smith N,Internal Medicine,FL,Park,1471997674,2,3662,3.63,True,1701,0.847
+P0170,Dr. Wilson O,Internal Medicine,PA,Hill,9857430687,9,4299,3.41,False,2722,0.756
+P0171,Dr. Chen P,Oncology,PA,Hill,8272725281,40,4016,3.38,True,1152,0.79
+P0172,Dr. Kim Q,Orthopedics,FL,Park,8322868827,21,3980,3.7,False,1188,0.602
+P0173,Dr. Brown R,Psychiatry,GA,Lakeside,4455798713,19,394,3.58,True,1428,0.947
+P0174,Dr. Davis S,Neurology,WA,Downtown,2166605339,7,4857,3.48,True,2753,0.939
+P0175,Dr. Garcia T,Cardiology,FL,Metro,7070083150,31,873,4.36,True,31,0.965
+P0176,Dr. Brown U,Radiology,NY,Hill,3794042404,19,2681,3.57,True,376,0.83
+P0177,Dr. Wilson V,Cardiology,FL,Downtown,4597485607,3,3302,4.58,True,1195,0.927
+P0178,Dr. Kim W,Internal Medicine,CA,Bay,9516893896,19,3772,4.98,False,559,0.916
+P0179,Dr. Kim X,Neurology,OH,Metro,2420277403,30,2157,4.44,True,1390,0.89
+P0180,Dr. Garcia Y,Oncology,NC,Bay,9147736635,28,4271,3.66,False,2751,0.591
+P0181,Dr. Davis Z,Dermatology,NY,Downtown,5324302451,25,1979,3.89,False,1360,0.68
+P0182,Dr. Smith A,Orthopedics,NC,Park,2014911848,8,3862,3.61,False,2820,0.766
+P0183,Dr. Lee B,Orthopedics,WA,Lakeside,3639796200,15,1144,3.96,False,2491,0.711
+P0184,Dr. Davis C,Emergency,GA,Park,4545940090,16,4930,4.75,True,2162,0.742
+P0185,Dr. Lee D,Internal Medicine,IL,Metro,3171050399,37,4446,3.3,False,2141,0.74
+P0186,Dr. Singh E,Radiology,FL,Metro,5533921266,9,4254,3.83,True,2298,0.749
+P0187,Dr. Smith F,Psychiatry,WA,Lakeside,4506639908,14,4787,3.15,False,1421,0.851
+P0188,Dr. Smith G,Pediatrics,GA,Hill,5431267548,27,1524,4.54,False,1543,0.977
+P0189,Dr. Davis H,Psychiatry,PA,Hill,9934605686,35,1139,4.31,False,495,0.627
+P0190,Dr. Brown I,Emergency,GA,Downtown,6576426590,35,3524,4.06,True,1023,0.748
+P0191,Dr. Kim J,Neurology,NY,Park,4287754238,3,3484,4.23,True,995,0.639
+P0192,Dr. Singh K,Cardiology,TX,Hill,1209063208,3,3345,3.88,True,241,0.61
+P0193,Dr. Garcia L,Internal Medicine,WA,Lakeside,8809893329,16,2522,4.75,True,1703,0.679
+P0194,Dr. Wilson M,Internal Medicine,CA,Park,4915196257,28,4603,3.99,False,2645,0.839
+P0195,Dr. Chen N,Psychiatry,GA,Hill,5935852056,25,1556,4.51,False,997,0.915
+P0196,Dr. Patel O,Radiology,WA,Metro,7710396573,27,4615,4.06,False,1004,0.66
+P0197,Dr. Lee P,Radiology,IL,Lakeside,9987064419,13,472,3.54,True,308,0.631
+P0198,Dr. Wilson Q,Neurology,NC,Hill,9190643621,20,175,3.42,True,490,0.871
+P0199,Dr. Garcia R,Internal Medicine,OH,Park,6173344564,16,4572,3.64,False,1569,0.75
+P0200,Dr. Kim S,Orthopedics,IL,Lakeside,7430757004,7,3896,4.52,False,842,0.709
+P0201,Dr. Smith T,Internal Medicine,PA,Downtown,4183654731,2,2186,4.11,False,1219,0.616
+P0202,Dr. Garcia U,Psychiatry,IL,Bay,4579265601,32,4560,4.31,False,1064,0.878
+P0203,Dr. Davis V,Radiology,OH,Downtown,2512585138,9,4527,3.98,True,2156,0.565
+P0204,Dr. Smith W,Cardiology,TX,Hill,3708842947,5,1287,3.02,False,1538,0.576
+P0205,Dr. Davis X,Radiology,NC,Metro,9618334441,36,3419,3.02,False,2204,0.97
+P0206,Dr. Wilson Y,Psychiatry,CA,Downtown,1639509845,13,4362,3.5,False,1104,0.892
+P0207,Dr. Chen Z,Psychiatry,TX,Hill,3426665919,15,2507,4.37,True,2687,0.976
+P0208,Dr. Lee A,Psychiatry,CA,Hill,3044426338,1,1453,3.17,False,2651,0.887
+P0209,Dr. Lee B,Emergency,NC,Metro,1986839603,37,3945,3.54,True,2813,0.948
+P0210,Dr. Singh C,Cardiology,GA,Downtown,2350701477,14,4858,3.29,False,325,0.679
+P0211,Dr. Garcia D,Internal Medicine,NC,Hill,7616665277,25,1196,4.58,True,2061,0.871
+P0212,Dr. Smith E,Pediatrics,IL,Hill,5621463184,39,4929,3.79,False,131,0.823
+P0213,Dr. Davis F,Neurology,OH,Lakeside,6907413963,12,4849,4.32,True,2543,0.677
+P0214,Dr. Lee G,Pediatrics,FL,Lakeside,5957341287,10,3241,3.63,True,384,0.552
+P0215,Dr. Davis H,Dermatology,WA,Lakeside,1439080604,6,1585,3.86,False,433,0.561
+P0216,Dr. Wilson I,Pediatrics,IL,Bay,2654584280,19,3439,3.78,True,2978,0.937
+P0217,Dr. Singh J,Emergency,FL,Downtown,8238377072,11,1187,3.54,False,2029,0.613
+P0218,Dr. Brown K,Orthopedics,NY,Hill,6582393412,5,3008,3.5,True,2962,0.819
+P0219,Dr. Singh L,Neurology,NC,Hill,1459442845,20,105,4.9,False,2550,0.713
+P0220,Dr. Davis M,Dermatology,IL,Hill,5879617459,21,4991,4.89,True,1972,0.685
+P0221,Dr. Chen N,Orthopedics,PA,Park,6336171726,25,2346,4.63,False,1505,0.599
+P0222,Dr. Garcia O,Internal Medicine,NC,Bay,8418324922,14,3641,4.6,True,1685,0.839
+P0223,Dr. Kim P,Neurology,NY,Lakeside,3828935922,28,3138,3.15,False,2394,0.722
+P0224,Dr. Brown Q,Emergency,GA,Metro,1364994639,16,2958,3.33,True,2316,0.973
+P0225,Dr. Chen R,Psychiatry,PA,Metro,1045302356,17,1868,4.02,True,1835,0.711
+P0226,Dr. Singh S,Emergency,OH,Downtown,5400463094,7,2470,3.83,True,485,0.907
+P0227,Dr. Chen T,Orthopedics,NY,Lakeside,7369118672,31,849,3.88,False,1316,0.579
+P0228,Dr. Lee U,Cardiology,CA,Lakeside,3783009621,11,2048,4.03,True,1365,0.791
+P0229,Dr. Garcia V,Psychiatry,OH,Park,1792214339,28,3290,3.06,True,1851,0.805
+P0230,Dr. Smith W,Neurology,PA,Downtown,4418828570,37,883,4.6,True,1508,0.69
+P0231,Dr. Lee X,Orthopedics,OH,Park,8999963054,34,2617,4.19,False,2414,0.599
+P0232,Dr. Davis Y,Internal Medicine,IL,Downtown,9953941533,9,2615,3.24,False,489,0.629
+P0233,Dr. Wilson Z,Psychiatry,NY,Hill,3561629386,37,3193,3.85,False,2613,0.781
+P0234,Dr. Wilson A,Oncology,NY,Hill,2240535933,12,2627,4.68,True,1480,0.959
+P0235,Dr. Patel B,Neurology,OH,Hill,7420846622,32,3454,4.42,False,2011,0.622
+P0236,Dr. Smith C,Neurology,NC,Lakeside,5435391625,15,4454,3.58,False,2326,0.869
+P0237,Dr. Wilson D,Emergency,OH,Metro,3459788151,18,4499,4.65,False,2230,0.904
+P0238,Dr. Davis E,Emergency,CA,Downtown,9546021691,7,2077,3.6,True,1852,0.663
+P0239,Dr. Davis F,Pediatrics,TX,Downtown,8254773516,40,3557,3.33,True,856,0.9
+P0240,Dr. Singh G,Dermatology,CA,Bay,3313993297,21,2447,3.58,False,2117,0.974
+P0241,Dr. Patel H,Psychiatry,TX,Metro,9557663181,9,1137,3.5,False,1023,0.877
+P0242,Dr. Davis I,Oncology,PA,Bay,8011113122,27,3123,3.9,True,1660,0.772
+P0243,Dr. Chen J,Radiology,WA,Hill,4147025728,30,2984,4.7,False,902,0.966
+P0244,Dr. Davis K,Orthopedics,FL,Lakeside,8852676046,22,4533,4.16,False,1417,0.934
+P0245,Dr. Smith L,Pediatrics,CA,Park,2973888646,8,1344,3.88,True,1762,0.637
+P0246,Dr. Kim M,Oncology,NY,Lakeside,9990826771,24,2101,3.16,True,222,0.72
+P0247,Dr. Garcia N,Psychiatry,WA,Park,9981632126,7,58,3.43,True,553,0.805
+P0248,Dr. Davis O,Cardiology,GA,Metro,8282534126,8,3509,4.39,False,300,0.648
+P0249,Dr. Lee P,Pediatrics,TX,Lakeside,2285291868,25,1140,4.28,True,290,0.778
+P0250,Dr. Singh Q,Oncology,CA,Hill,4213790202,27,3674,4.72,True,421,0.61
+P0251,Dr. Singh R,Psychiatry,TX,Lakeside,9432088993,21,1195,3.5,True,1026,0.788
+P0252,Dr. Singh S,Orthopedics,NC,Park,9056616444,14,4291,4.21,True,1614,0.677
+P0253,Dr. Garcia T,Radiology,CA,Hill,1484230338,32,4915,3.14,True,1489,0.952
+P0254,Dr. Brown U,Internal Medicine,NY,Hill,3933213766,31,647,3.03,True,66,0.663
+P0255,Dr. Smith V,Psychiatry,CA,Bay,8589679668,28,3345,3.16,True,1146,0.586
+P0256,Dr. Wilson W,Neurology,TX,Downtown,7598745558,26,4854,4.27,True,1280,0.85
+P0257,Dr. Smith X,Neurology,FL,Metro,9266213260,8,3764,4.22,True,1276,0.836
+P0258,Dr. Lee Y,Cardiology,NY,Park,1048750473,32,2890,4.05,False,693,0.71
+P0259,Dr. Lee Z,Cardiology,WA,Lakeside,8761469117,18,4341,3.13,True,2042,0.746
+P0260,Dr. Smith A,Radiology,IL,Bay,6011717427,11,2139,4.55,True,945,0.869
+P0261,Dr. Smith B,Cardiology,CA,Downtown,5492456455,24,3187,4.84,True,154,0.788
+P0262,Dr. Garcia C,Dermatology,PA,Downtown,8388580360,18,688,4.14,True,2066,0.84
+P0263,Dr. Patel D,Neurology,CA,Bay,5215140451,26,614,4.75,False,1282,0.691
+P0264,Dr. Davis E,Cardiology,GA,Lakeside,6156843353,37,2539,4.48,True,1910,0.708
+P0265,Dr. Garcia F,Emergency,OH,Downtown,1646677686,27,245,3.47,False,2614,0.911
+P0266,Dr. Chen G,Cardiology,CA,Park,2320748157,14,4390,4.97,False,2025,0.963
+P0267,Dr. Kim H,Pediatrics,NY,Metro,4956843441,34,3433,4.4,False,1887,0.969
+P0268,Dr. Singh I,Pediatrics,TX,Bay,8816681105,5,4898,4.14,False,2723,0.965
+P0269,Dr. Kim J,Orthopedics,FL,Lakeside,6696207128,29,2277,3.47,True,567,0.885
+P0270,Dr. Lee K,Oncology,NC,Metro,6000952470,30,2622,3.81,False,860,0.744
+P0271,Dr. Kim L,Pediatrics,OH,Metro,8241550421,39,380,3.43,False,617,0.589
+P0272,Dr. Chen M,Psychiatry,FL,Bay,9800175892,20,2181,4.64,True,137,0.959
+P0273,Dr. Wilson N,Emergency,OH,Downtown,5701809264,7,1195,3.24,True,920,0.606
+P0274,Dr. Chen O,Pediatrics,PA,Bay,7812328180,5,228,4.99,True,2655,0.741
+P0275,Dr. Lee P,Dermatology,NY,Metro,2979958124,11,4751,3.87,False,2042,0.563
+P0276,Dr. Patel Q,Dermatology,PA,Downtown,4901136913,18,2342,3.89,True,151,0.814
+P0277,Dr. Garcia R,Orthopedics,NC,Hill,7660157097,4,768,3.56,True,1727,0.636
+P0278,Dr. Garcia S,Emergency,GA,Metro,9544423456,23,3979,4.09,False,1419,0.942
+P0279,Dr. Chen T,Psychiatry,GA,Lakeside,1772303297,21,4941,3.44,False,249,0.898
+P0280,Dr. Wilson U,Dermatology,OH,Bay,5293274004,11,870,3.5,True,1101,0.779
+P0281,Dr. Garcia V,Internal Medicine,CA,Hill,4630196130,12,1987,4.19,False,2433,0.562
+P0282,Dr. Singh W,Internal Medicine,IL,Downtown,2327372855,32,360,3.18,True,2474,0.644
+P0283,Dr. Davis X,Cardiology,GA,Lakeside,5855415646,12,2700,3.12,True,2412,0.853
+P0284,Dr. Lee Y,Emergency,NY,Lakeside,5125568431,24,3290,4.17,False,1246,0.689
+P0285,Dr. Brown Z,Radiology,NY,Park,2362721798,36,2973,3.45,True,1559,0.682
+P0286,Dr. Patel A,Oncology,WA,Park,7755273988,37,315,3.36,False,2514,0.645
+P0287,Dr. Lee B,Radiology,NC,Downtown,1334176969,23,2667,3.34,True,2913,0.838
+P0288,Dr. Davis C,Cardiology,IL,Lakeside,1900587144,5,2921,3.51,True,2960,0.551
+P0289,Dr. Davis D,Psychiatry,PA,Downtown,9094089209,32,3152,3.7,False,425,0.906
+P0290,Dr. Garcia E,Oncology,NC,Hill,4632522232,19,214,3.64,True,313,0.697
+P0291,Dr. Patel F,Pediatrics,PA,Bay,5200656353,22,4916,4.97,False,2895,0.563
+P0292,Dr. Singh G,Psychiatry,NY,Downtown,1230020161,22,1733,4.95,False,2865,0.788
+P0293,Dr. Kim H,Orthopedics,GA,Lakeside,2020262123,4,3268,4.14,False,639,0.573
+P0294,Dr. Brown I,Pediatrics,CA,Lakeside,3062994753,7,260,3.41,False,345,0.754
+P0295,Dr. Kim J,Psychiatry,TX,Hill,8134112721,6,4507,3.78,False,1572,0.709
+P0296,Dr. Smith K,Orthopedics,OH,Hill,7292376027,15,2250,4.13,True,2862,0.837
+P0297,Dr. Chen L,Emergency,TX,Hill,3532855799,36,549,4.68,False,2203,0.845
+P0298,Dr. Singh M,Neurology,OH,Hill,2283560032,26,334,4.0,True,502,0.958
+P0299,Dr. Patel N,Oncology,OH,Downtown,4472312361,9,399,3.85,False,837,0.979
+P0300,Dr. Singh O,Orthopedics,NY,Lakeside,1287814151,25,4607,3.79,False,1141,0.773
+P0301,Dr. Singh P,Internal Medicine,CA,Bay,8652281649,8,3445,3.3,True,442,0.792
+P0302,Dr. Kim Q,Emergency,TX,Lakeside,9065491438,17,3187,4.31,False,163,0.624
+P0303,Dr. Patel R,Internal Medicine,PA,Bay,2725373847,26,2765,4.38,True,1956,0.946
+P0304,Dr. Smith S,Dermatology,IL,Lakeside,6630484376,32,854,4.94,True,560,0.679
+P0305,Dr. Chen T,Orthopedics,OH,Park,3772636814,13,3668,3.42,False,1994,0.877
+P0306,Dr. Smith U,Emergency,IL,Downtown,5576790020,33,3354,3.27,True,721,0.633
+P0307,Dr. Smith V,Neurology,FL,Metro,2960432117,24,1681,3.55,False,2078,0.721
+P0308,Dr. Smith W,Neurology,TX,Lakeside,2915999663,31,4857,4.1,False,679,0.91
+P0309,Dr. Lee X,Orthopedics,WA,Metro,2660286914,11,4737,4.56,True,916,0.828
+P0310,Dr. Kim Y,Psychiatry,FL,Bay,5333183840,9,1468,4.2,True,926,0.659
+P0311,Dr. Kim Z,Psychiatry,WA,Hill,8952502057,30,2114,3.44,False,2783,0.774
+P0312,Dr. Brown A,Internal Medicine,NC,Metro,9621492184,24,4649,4.29,False,1232,0.844
+P0313,Dr. Lee B,Dermatology,OH,Lakeside,8046300793,18,2189,4.31,False,781,0.614
+P0314,Dr. Smith C,Internal Medicine,FL,Hill,8131923452,9,258,4.31,False,1072,0.94
+P0315,Dr. Brown D,Cardiology,PA,Bay,6110646714,15,4429,4.28,False,2761,0.704
+P0316,Dr. Patel E,Emergency,WA,Downtown,2261792922,31,1098,4.48,True,2794,0.937
+P0317,Dr. Garcia F,Dermatology,TX,Downtown,6613888489,22,3094,3.52,False,1909,0.916
+P0318,Dr. Smith G,Internal Medicine,OH,Bay,5600836559,13,4149,3.24,False,2180,0.678
+P0319,Dr. Patel H,Oncology,CA,Downtown,6766723248,37,3798,3.29,True,341,0.76
+P0320,Dr. Chen I,Cardiology,NY,Metro,7236521132,14,1431,4.15,True,2015,0.888
+P0321,Dr. Patel J,Internal Medicine,TX,Hill,8015775567,26,3564,4.93,False,29,0.566
+P0322,Dr. Chen K,Cardiology,FL,Lakeside,3280772748,2,83,4.25,True,936,0.848
+P0323,Dr. Kim L,Oncology,IL,Metro,7823288650,11,584,4.65,False,1201,0.746
+P0324,Dr. Singh M,Emergency,GA,Lakeside,5869588539,32,2992,4.5,True,1662,0.558
+P0325,Dr. Patel N,Neurology,FL,Park,9684051360,33,1434,3.25,True,1546,0.927
+P0326,Dr. Wilson O,Internal Medicine,WA,Metro,9795922823,7,211,3.1,True,1717,0.741
+P0327,Dr. Wilson P,Orthopedics,TX,Hill,4014501050,14,126,3.6,True,2723,0.774
+P0328,Dr. Singh Q,Oncology,NC,Hill,5800633419,8,920,4.0,True,1087,0.908
+P0329,Dr. Chen R,Psychiatry,FL,Lakeside,1688799369,36,4116,4.82,False,1364,0.651
+P0330,Dr. Lee S,Pediatrics,CA,Bay,8168394616,10,787,4.56,True,2973,0.861
+P0331,Dr. Garcia T,Radiology,WA,Lakeside,6429375645,4,867,4.63,True,1200,0.705
+P0332,Dr. Brown U,Pediatrics,IL,Metro,4823775103,1,1183,4.33,True,1356,0.704
+P0333,Dr. Singh V,Orthopedics,OH,Park,5694190173,22,1548,3.23,False,1879,0.667
+P0334,Dr. Davis W,Psychiatry,PA,Park,1716309186,9,530,4.96,True,434,0.729
+P0335,Dr. Davis X,Internal Medicine,NC,Park,2881894932,40,3160,4.56,True,2813,0.928
+P0336,Dr. Davis Y,Radiology,NY,Metro,9107154202,29,426,3.13,False,60,0.853
+P0337,Dr. Singh Z,Internal Medicine,GA,Downtown,5704029171,16,3997,3.69,False,618,0.911
+P0338,Dr. Singh A,Cardiology,GA,Metro,8940731272,32,1404,3.15,False,1323,0.654
+P0339,Dr. Smith B,Emergency,WA,Downtown,6921203386,16,695,3.92,False,370,0.918
+P0340,Dr. Chen C,Pediatrics,OH,Hill,1076317824,26,3427,3.07,True,382,0.89
+P0341,Dr. Kim D,Emergency,NC,Bay,8178927766,22,3026,4.65,True,1871,0.693
+P0342,Dr. Singh E,Radiology,NC,Park,8117478955,29,984,3.19,True,18,0.697
+P0343,Dr. Wilson F,Emergency,WA,Lakeside,4015479599,3,1394,3.98,False,448,0.659
+P0344,Dr. Garcia G,Pediatrics,FL,Hill,6220917178,13,2818,3.22,False,200,0.948
+P0345,Dr. Lee H,Radiology,NC,Hill,3142452709,34,447,4.11,False,2406,0.758
+P0346,Dr. Patel I,Internal Medicine,GA,Downtown,1551395583,25,4969,4.21,False,2074,0.929
+P0347,Dr. Singh J,Neurology,PA,Lakeside,6558433027,9,1181,3.83,False,2883,0.786
+P0348,Dr. Wilson K,Neurology,IL,Downtown,8363225516,23,1136,4.96,True,2073,0.783
+P0349,Dr. Lee L,Dermatology,IL,Bay,8934097788,1,4332,3.21,False,605,0.573
+P0350,Dr. Garcia M,Orthopedics,CA,Downtown,9519206782,17,1249,4.68,False,845,0.874
+P0351,Dr. Chen N,Radiology,CA,Metro,2670255496,33,2406,4.39,True,1572,0.717
+P0352,Dr. Wilson O,Cardiology,IL,Metro,8489005480,13,3679,4.66,False,2420,0.785
+P0353,Dr. Garcia P,Neurology,NC,Lakeside,2927645417,5,1581,4.92,True,1555,0.567
+P0354,Dr. Wilson Q,Orthopedics,WA,Downtown,8928570600,1,2757,3.93,True,173,0.616
+P0355,Dr. Singh R,Cardiology,IL,Park,8137764127,32,4741,4.1,True,2908,0.687
+P0356,Dr. Patel S,Emergency,FL,Metro,5979458346,35,4449,3.81,False,916,0.93
+P0357,Dr. Chen T,Dermatology,IL,Lakeside,7573442717,36,122,3.23,False,1835,0.653
+P0358,Dr. Singh U,Neurology,NC,Metro,6673381261,8,3211,3.51,False,111,0.942
+P0359,Dr. Wilson V,Emergency,IL,Hill,3090810307,19,1627,3.64,True,403,0.622
+P0360,Dr. Wilson W,Cardiology,GA,Park,1281199333,14,3525,4.67,True,2212,0.906
+P0361,Dr. Lee X,Oncology,PA,Metro,2424706705,6,650,3.11,False,2295,0.58
+P0362,Dr. Kim Y,Psychiatry,FL,Hill,7032058320,21,188,3.78,True,2200,0.553
+P0363,Dr. Lee Z,Internal Medicine,NC,Metro,5606736607,33,919,3.58,False,2494,0.587
+P0364,Dr. Brown A,Psychiatry,OH,Park,5427334554,11,4420,3.44,False,2245,0.677
+P0365,Dr. Kim B,Dermatology,NY,Metro,3384006407,8,392,3.01,False,2210,0.785
+P0366,Dr. Kim C,Neurology,TX,Park,8412844457,14,3430,4.81,True,669,0.629
+P0367,Dr. Kim D,Neurology,NC,Metro,4660390742,36,3828,4.29,True,1200,0.839
+P0368,Dr. Lee E,Neurology,WA,Park,7788606640,22,2975,3.26,True,419,0.673
+P0369,Dr. Garcia F,Dermatology,TX,Hill,7230477043,40,2554,4.39,True,2326,0.794
+P0370,Dr. Brown G,Oncology,IL,Metro,2345247256,15,3622,3.55,False,560,0.842
+P0371,Dr. Davis H,Radiology,IL,Hill,6606958660,36,941,3.35,True,1159,0.919
+P0372,Dr. Wilson I,Neurology,NY,Lakeside,3691307645,5,202,4.7,True,2393,0.799
+P0373,Dr. Garcia J,Cardiology,NC,Bay,7612862866,10,3046,3.78,False,558,0.75
+P0374,Dr. Lee K,Psychiatry,GA,Lakeside,3156792018,16,1408,4.51,True,1837,0.618
+P0375,Dr. Singh L,Oncology,NC,Park,8438902565,23,381,3.44,False,959,0.577
+P0376,Dr. Garcia M,Cardiology,IL,Park,6846530109,31,3774,4.76,True,2666,0.689
+P0377,Dr. Kim N,Orthopedics,GA,Bay,6041646576,25,3042,4.18,True,2126,0.658
+P0378,Dr. Wilson O,Psychiatry,FL,Lakeside,6776869849,31,4999,3.01,True,1811,0.621
+P0379,Dr. Wilson P,Orthopedics,TX,Downtown,1645277642,11,3017,4.2,True,2717,0.649
+P0380,Dr. Lee Q,Radiology,IL,Park,7351460539,14,4889,3.32,False,101,0.655
+P0381,Dr. Singh R,Internal Medicine,NY,Downtown,3201784149,37,1253,3.11,False,747,0.772
+P0382,Dr. Singh S,Internal Medicine,PA,Park,1368287033,29,3911,4.73,True,908,0.907
+P0383,Dr. Patel T,Internal Medicine,NC,Downtown,7488857684,11,2857,4.84,True,951,0.713
+P0384,Dr. Lee U,Cardiology,NY,Downtown,8234304760,10,838,3.35,True,2186,0.766
+P0385,Dr. Lee V,Radiology,TX,Park,4554178984,28,4326,3.84,True,2867,0.778
+P0386,Dr. Davis W,Psychiatry,FL,Lakeside,5714658227,9,2135,3.95,True,353,0.672
+P0387,Dr. Brown X,Orthopedics,GA,Downtown,9613425697,1,4784,4.05,True,1546,0.831
+P0388,Dr. Brown Y,Dermatology,IL,Metro,5959736235,38,2127,3.52,False,2322,0.707
+P0389,Dr. Brown Z,Neurology,WA,Hill,7689680766,12,3082,4.12,False,1049,0.975
+P0390,Dr. Chen A,Psychiatry,NC,Park,6281827528,11,871,3.43,False,1396,0.894
+P0391,Dr. Smith B,Oncology,NC,Hill,5919148165,39,3616,3.18,False,918,0.709
+P0392,Dr. Smith C,Psychiatry,NC,Hill,7532669066,39,520,4.89,True,2632,0.763
+P0393,Dr. Garcia D,Emergency,CA,Lakeside,1836429847,39,4232,4.03,True,2529,0.623
+P0394,Dr. Chen E,Neurology,CA,Park,1676220116,18,3322,3.71,False,1670,0.802
+P0395,Dr. Smith F,Pediatrics,GA,Metro,7655449762,36,4825,3.7,False,936,0.811
+P0396,Dr. Davis G,Psychiatry,FL,Bay,5314945131,12,3385,4.01,True,2070,0.677
+P0397,Dr. Wilson H,Orthopedics,TX,Bay,7764117705,29,3139,4.13,True,1401,0.963
+P0398,Dr. Davis I,Internal Medicine,OH,Metro,3070046110,17,603,3.77,True,2782,0.852
+P0399,Dr. Brown J,Dermatology,IL,Bay,3300607428,17,2083,3.57,False,2769,0.872
+P0400,Dr. Lee K,Emergency,IL,Downtown,7341757401,23,1840,4.79,False,758,0.957
