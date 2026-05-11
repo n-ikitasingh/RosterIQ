@@ -1,4 +1,4 @@
-project_id = "jvvcgsqfqyntfucyahcc"
+project_id = "rosteriq-local"
 
 [functions.nl-to-sql]
 verify_jwt = false
