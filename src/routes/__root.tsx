@@ -8,8 +8,11 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import { Toaster } from "@/components/ui/sonner";
+import { ThemeProvider } from "@/lib/theme.tsx";
 
 import appCss from "../styles.css?url";
+
+const themeInitScript = `(function(){try{var t=localStorage.getItem('rosteriq.theme')||'light';var e=document.documentElement;if(t==='dark'){e.classList.add('dark');}else{e.classList.remove('dark');}e.style.colorScheme=t;}catch(e){document.documentElement.classList.remove('dark');document.documentElement.style.colorScheme='light';}})();`;
 
 function NotFoundComponent() {
   return (
@@ -96,8 +99,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <HeadContent />
       </head>
       <body>
@@ -113,8 +117,10 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Outlet />
-      <Toaster />
+      <ThemeProvider>
+        <Outlet />
+        <Toaster />
+      </ThemeProvider>
     </QueryClientProvider>
   );
 }
