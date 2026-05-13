@@ -6,7 +6,7 @@ import { AppShell } from "@/components/rosteriq/AppShell";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "RosterIQ — Memory-Driven AI Analytics Agent" },
+      { title: "RosterIQ" },
       { name: "description", content: "Production-grade AI analytics platform with NL→SQL, agent orchestration, and memory architecture." },
       { property: "og:title", content: "RosterIQ — AI Analytics Agent" },
       { property: "og:description", content: "Ask data anything. RosterIQ generates SQL, executes against DuckDB, and explains results with persistent memory." },
