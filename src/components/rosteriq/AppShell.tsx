@@ -1,7 +1,6 @@
 import { Link, Outlet, useLocation } from "@tanstack/react-router";
-import { Brain, Database, Sparkles, Network, LayoutDashboard, Menu } from "lucide-react";
+import { Brain, Database, Sparkles, Network, LayoutDashboard, Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/lib/theme";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useEffect, useState, type ReactNode } from "react";
 
 const NAV = [
@@ -61,6 +60,15 @@ export function AppShell({ children }: { children?: ReactNode }) {
 
   useEffect(() => { setOpen(false); }, [loc.pathname]);
 
+  useEffect(() => {
+    if (!open) return;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [open]);
+
   return (
     <div className="flex min-h-screen text-foreground">
       <aside className="hidden md:flex w-60 shrink-0 border-r border-border/60 glass flex-col sticky top-0 h-screen">
@@ -75,16 +83,42 @@ export function AppShell({ children }: { children?: ReactNode }) {
           </div>
           <span className="font-semibold tracking-tight text-sm">RosterIQ</span>
         </Link>
-        <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger asChild>
-            <button className="inline-flex items-center justify-center size-9 rounded-lg border border-border/60 bg-card/40 text-foreground hover:bg-secondary/60 transition-colors" aria-label="Open menu">
-              <Menu className="size-4" />
-            </button>
-          </SheetTrigger>
-          <SheetContent side="left" className="w-72 p-0 glass border-r border-border/60">
-            <SidebarContent pathname={loc.pathname} onNavigate={() => setOpen(false)} />
-          </SheetContent>
-        </Sheet>
+        <button
+          type="button"
+          className="inline-flex items-center justify-center size-9 rounded-lg border border-border/60 bg-card/40 text-foreground hover:bg-secondary/60 transition-colors"
+          aria-label="Open menu"
+          aria-controls="mobile-sidebar"
+          aria-expanded={open}
+          onClick={() => setOpen(true)}
+        >
+          <Menu className="size-4" />
+        </button>
+      </div>
+
+      <div className={`md:hidden fixed inset-0 z-50 transition ${open ? "pointer-events-auto" : "pointer-events-none"}`} aria-hidden={!open}>
+        <button
+          type="button"
+          className={`absolute inset-0 bg-background/70 backdrop-blur-sm transition-opacity ${open ? "opacity-100" : "opacity-0"}`}
+          aria-label="Close menu"
+          onClick={() => setOpen(false)}
+        />
+        <aside
+          id="mobile-sidebar"
+          className={`absolute inset-y-0 left-0 w-72 max-w-[82vw] border-r border-border/60 glass shadow-2xl transition-transform duration-200 ease-out ${
+            open ? "translate-x-0" : "-translate-x-full"
+          }`}
+          aria-label="Mobile navigation"
+        >
+          <button
+            type="button"
+            className="absolute right-3 top-3 inline-flex size-8 items-center justify-center rounded-lg border border-border/60 bg-card/60 text-foreground hover:bg-secondary/60 transition-colors"
+            aria-label="Close menu"
+            onClick={() => setOpen(false)}
+          >
+            <X className="size-4" />
+          </button>
+          <SidebarContent pathname={loc.pathname} onNavigate={() => setOpen(false)} />
+        </aside>
       </div>
 
       <main className="flex-1 min-w-0 pt-14 md:pt-0">{children ?? <Outlet />}</main>
