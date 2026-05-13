@@ -1,17 +1,20 @@
-
 # RosterIQ 🧠
 
-RosterIQ is an AI-powered analytics and decision intelligence platform designed to transform raw datasets into actionable insights through conversational workflows, semantic memory systems, and interactive data exploration.
+RosterIQ is an AI-powered analytics and decision intelligence platform that transforms raw datasets into actionable insights through conversational workflows, semantic memory systems, and interactive data exploration.
+
+Built as a modern AI-native interface, RosterIQ combines analytics orchestration, memory-inspired architecture, and intelligent workflow visualization into a deployable full-stack experience.
+
+---
 
 ## 🚀 Features
 
 - 📊 Interactive analytics dashboard
-- 🧠 Semantic memory-inspired architecture
-- 🗂 Dataset exploration interface
-- ⚡ AI-centric workflow visualization
-- 🧩 Modular TanStack Start architecture
-- ☁️ Cloudflare Workers deployment
+- 🧠 Semantic memory-inspired system architecture
+- 🗂 Intelligent dataset exploration interface
+- ⚡ AI workflow orchestration and visualization
+- 📈 Dynamic charts and insight rendering
 - 🎨 Modern responsive UI with glassmorphism aesthetics
+- 🌐 SPA deployment optimized for Vercel
 
 ---
 
@@ -21,17 +24,16 @@ RosterIQ is an AI-powered analytics and decision intelligence platform designed 
 - React
 - TypeScript
 - Vite
-- TanStack Start
-- Tailwind CSS
+- TanStack Router
+- Tailwind CSS v4
 - Framer Motion
 
-### Backend & Deployment
-- Cloudflare Workers
-- Wrangler CLI
+### Backend & Integrations
+- Supabase
+- Modular analytics engine architecture
 
-### Data & Integrations
-- CSV dataset handling
-- Supabase integration support
+### Deployment
+- Vercel
 
 ---
 
@@ -46,12 +48,10 @@ src/
  ├── routes/
  ├── styles.css
  ├── router.tsx
- └── server.ts
+ └── main.tsx
 
-dist/
- ├── client/
- └── server/
-````
+public/
+```
 
 ---
 
@@ -93,45 +93,35 @@ npm run build
 
 ---
 
-## ☁️ Deployment
-
-This project is deployed using Cloudflare Workers.
-
-Production deployment:
-
-```bash
-npx wrangler deploy
-```
-
----
-
 ## 🌐 Live Demo
 
 ```txt
-https://rosteriq-ai.nikitasingh-sps.workers.dev/
+https://rosteriq-ai.vercel.app/
 ```
 
 ---
 
-## 📸 Preview
+## 📸 Platform Highlights
 
 RosterIQ combines:
 
-* AI-inspired system design
-* analytics workflows
-* memory architecture visualization
-* conversational intelligence concepts
+- AI-inspired system orchestration
+- conversational analytics workflows
+- memory architecture visualization
+- intelligent dataset interaction
+- modern dashboard engineering
 
-into a futuristic interactive interface.
+into a futuristic analytics experience designed for next-generation decision intelligence systems.
 
 ---
 
 ## 📌 Future Improvements
 
-* Fully responsive mobile experience
-* Real-time AI query engine
-* Natural language analytics assistant
-* Dynamic dataset uploads
-* Authentication system
-* Persistent memory layer
+- Real-time AI query engine
+- Natural language analytics assistant
+- Persistent semantic memory layer
+- Authentication and workspace isolation
+- Dynamic dataset ingestion
+- Advanced dashboard customization
+- Mobile-first responsive optimization
 
